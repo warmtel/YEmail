@@ -1,0 +1,10 @@
+.settings
+bin
+gen
+libs
+proguard
+.classpath
+.project
+proguard.cfg
+project.properties
+res
