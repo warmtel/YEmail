@@ -1,0 +1,2600 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+com.beetstra.jutf7.Base64Util:
+    private static final int ALPHABET_LENGTH
+com.beetstra.jutf7.CharsetProvider:
+    private static final java.lang.String UTF7_NAME
+    private static final java.lang.String UTF7_O_NAME
+    private static final java.lang.String UTF7_M_NAME
+com.beetstra.jutf7.ModifiedUTF7Charset:
+    private static final java.lang.String MODIFIED_BASE64_ALPHABET
+com.beetstra.jutf7.UTF7Charset:
+    private static final java.lang.String BASE64_ALPHABET
+    private static final java.lang.String SET_D
+    private static final java.lang.String SET_O
+    private static final java.lang.String RULE_3
+com.beetstra.jutf7.UTF7StyleCharsetEncoder:
+    private static final float AVG_BYTES_PER_CHAR
+    private static final float MAX_BYTES_PER_CHAR
+com.feedback.NotificationType
+com.feedback.UMFeedbackService:
+    private static com.feedback.NotificationType a
+    private static android.content.Context b
+    public UMFeedbackService()
+    private static void b(java.lang.String)
+    public static void openUmengFeedbackSDK(android.content.Context)
+    public static void enableNewReplyNotification(android.content.Context,com.feedback.NotificationType)
+    static synthetic android.content.Context a()
+    static synthetic void a(java.lang.String)
+com.feedback.a
+com.feedback.a.a:
+    public java.lang.String d
+com.feedback.b
+com.feedback.b.a:
+    public a()
+com.feedback.b.b:
+    public b()
+    public static synchronized boolean b(org.json.JSONObject)
+com.feedback.b.c:
+    public c()
+com.feedback.b.d:
+    static final java.lang.String a
+    private static final int b
+    public d()
+com.feedback.c
+com.feedback.c.b:
+    public b(android.content.Context,android.os.Handler)
+com.feedback.ui.FeedbackConversations:
+    private static final int c
+    private static final int d
+    private static final int e
+    private static final int f
+    private static final int g
+com.feedback.ui.c:
+    java.lang.String c
+com.feedback.ui.g:
+    org.json.JSONArray d
+    java.lang.String[] e
+    public com.feedback.a.e a(int)
+com.mail163.email.Account:
+    public static final int DELETE_POLICY_NEVER
+    public static final int DELETE_POLICY_7DAYS
+    public static final int DELETE_POLICY_ON_DELETE
+    public static final int CHECK_INTERVAL_NEVER
+    public static final int CHECK_INTERVAL_PUSH
+    public static final int SYNC_WINDOW_USER
+    public static final int SYNC_WINDOW_1_DAY
+    public static final int SYNC_WINDOW_3_DAYS
+    public static final int SYNC_WINDOW_1_WEEK
+    public static final int SYNC_WINDOW_2_WEEKS
+    public static final int SYNC_WINDOW_1_MONTH
+    public static final int SYNC_WINDOW_ALL
+    public static final int BACKUP_FLAGS_IS_BACKUP
+    public static final int BACKUP_FLAGS_SYNC_CONTACTS
+    public static final int BACKUP_FLAGS_IS_DEFAULT
+    public static final int BACKUP_FLAGS_SYNC_CALENDAR
+    private static final java.lang.String KEY_SYNC_WINDOW
+    private static final java.lang.String KEY_BACKUP_FLAGS
+    private static final java.lang.String KEY_PROTOCOL_VERSION
+    private static final java.lang.String KEY_SECURITY_FLAGS
+    private static final java.lang.String KEY_SIGNATURE
+    private static final java.lang.String KEY_VIBRATE_WHEN_SILENT
+    360:360:public android.net.Uri getContentUri()
+    368:369:public void setLocalStoreUri(java.lang.String)
+    386:386:public long getLastAutomaticCheckTime()
+    390:391:public void setLastAutomaticCheckTime(long)
+    410:410:public java.lang.String getDraftsFolderName()
+    414:415:public void setDraftsFolderName(java.lang.String)
+    418:418:public java.lang.String getSentFolderName()
+    422:423:public void setSentFolderName(java.lang.String)
+    426:426:public java.lang.String getTrashFolderName()
+    430:431:public void setTrashFolderName(java.lang.String)
+    434:434:public java.lang.String getOutboxFolderName()
+    438:439:public void setOutboxFolderName(java.lang.String)
+    458:459:public void setBackupFlags(int)
+com.mail163.email.AccountBackupRestore:
+    20:20:public AccountBackupRestore()
+com.mail163.email.BuildConfig
+com.mail163.email.Controller:
+    96:97:public void setProviderContext(android.content.Context)
+    125:125:private boolean isActiveResultCallback(com.mail163.email.Controller$Result)
+    144:144:public void serviceLogging(int)
+com.mail163.email.Controller$ServiceCallback:
+    private static final boolean DEBUG_FAIL_DOWNLOADS
+com.mail163.email.Email:
+    public static final java.lang.String EMULATOR
+    public static final boolean MOBILEMESSAGEFLAG
+    public static final java.lang.String STORESETMESSAGE
+    public static final java.lang.String LOG_TAG
+    public static final java.lang.String SERVICE_MOBILE_TEST
+    public static final java.lang.String SERVICE_MOBILE
+    public static final boolean LOGD
+    public static final int MAX_ATTACHMENT_DOWNLOAD_SIZE
+    public static final int MAX_ATTACHMENT_UPLOAD_SIZE
+    private static final long UPDATE_INTERVAL
+    public static final java.lang.String EXCHANGE_ACCOUNT_MANAGER_TYPE
+    284:284:public static int getAccountColor(long)
+com.mail163.email.Email$Global:
+    public static final java.lang.String tempFile
+    public static final java.lang.String ACTION_INSTALL_SOFT
+    public static final java.lang.String ACTION_MUSIC_SERVICE_BROADCASTK
+    public static final java.lang.String ACTION_MUSIC_SERVICE
+    public static final java.lang.String ACTION_SENDMESSAGE_BROADCASET
+    public static final int set_streamSize_0
+    public static final int set_streamSize_10
+    public static final int set_streamsize_20
+    public static final int set_streamsize_30
+    public static boolean ISFORWORD
+    39:39:public Email$Global()
+com.mail163.email.EmailAddressAdapter:
+    public static final int ID_INDEX
+    public static final int NAME_INDEX
+    public static final int DATA_INDEX
+    protected static final java.lang.String SORT_ORDER
+com.mail163.email.GroupMessagingListener:
+    44:45:public synchronized void removeListener(com.mail163.email.MessagingListener)
+    156:159:public synchronized void messageUidChanged(long,long,java.lang.String,java.lang.String)
+com.mail163.email.LegacyConversions:
+    private static final java.lang.String TAG
+    private static final boolean DEBUG_ATTACHMENTS
+    static final java.lang.String BODY_QUOTED_PART_REPLY
+    static final java.lang.String BODY_QUOTED_PART_FORWARD
+    static final java.lang.String BODY_QUOTED_PART_INTRO
+    private static final int ATTACHMENT_META_COLUMNS_SIZE
+    59:59:public LegacyConversions()
+com.mail163.email.Logs:
+    public static final java.lang.String LOG_TAG
+    public static final java.lang.String LOG_MessageView
+    public static final java.lang.String LOG_TAG_MAIL_LIST
+    public static final java.lang.String LOG_TAG_MAIL_FOLDER_LIST
+    public static final java.lang.String LOG_TAG_MESSAGE_COMPOSE
+    public static final java.lang.String LOG_TAG_MESSAGE_VIEW
+    10:10:public Logs()
+    19:22:public static void i(java.lang.String,java.lang.String)
+    40:43:public static void print(java.lang.String,java.lang.String)
+com.mail163.email.Manifest
+com.mail163.email.Manifest$permission
+com.mail163.email.MessagingController:
+    private static final int MAX_SMALL_MESSAGE_SIZE
+    private static final java.lang.String LOCAL_SERVERID_PREFIX
+    137:138:public static void injectMockController(com.mail163.email.MessagingController)
+    142:142:public boolean isBusy()
+    182:183:public void removeListener(com.mail163.email.MessagingListener)
+    1740:1774:void pruneCachedAttachments(long)
+com.mail163.email.MessagingController$6:
+    1348:1351:public void onMessageUidChange(com.mail163.email.mail.Message,java.lang.String)
+    1359:1360:public void onMessageNotFound(com.mail163.email.mail.Message)
+com.mail163.email.MessagingController$LocalMailboxInfo
+com.mail163.email.MessagingController$LocalMessageInfo:
+    private static final int COLUMN_ID
+    private static final int COLUMN_FLAG_READ
+    private static final int COLUMN_FLAG_FAVORITE
+    private static final int COLUMN_FLAG_LOADED
+    private static final int COLUMN_SERVER_ID
+com.mail163.email.MessagingListener:
+    75:75:public void messageUidChanged(long,long,java.lang.String,java.lang.String)
+com.mail163.email.NoticeBean:
+    23:23:public java.lang.String getEmail()
+com.mail163.email.Preferences:
+    private static final java.lang.String PREFERENCES_FILE
+    private static final java.lang.String ACCOUNT_UUIDS
+    private static final java.lang.String DEFAULT_ACCOUNT_UUID
+    private static final java.lang.String ENABLE_DEBUG_LOGGING
+    private static final java.lang.String ENABLE_SENSITIVE_LOGGING
+    private static final java.lang.String ENABLE_EXCHANGE_LOGGING
+    private static final java.lang.String ENABLE_EXCHANGE_FILE_LOGGING
+    private static final java.lang.String DEVICE_UID
+    private static final java.lang.String ONE_TIME_INITIALIZATION_PROGRESS
+    84:101:public com.mail163.email.Account getAccountByContentUri(android.net.Uri)
+    110:129:public com.mail163.email.Account getDefaultAccount()
+    133:134:public void setDefaultAccount(com.mail163.email.Account)
+    153:154:public void setEnableExchangeLogging(boolean)
+    157:157:public boolean getEnableExchangeLogging()
+    161:162:public void setEnableExchangeFileLogging(boolean)
+    165:165:public boolean getEnableExchangeFileLogging()
+    191:191:public void save()
+    194:195:public void clear()
+com.mail163.email.R:
+    10:10:public R()
+com.mail163.email.Recorder:
+    private static final java.lang.String TAG
+    static final java.lang.String SAMPLE_PREFIX
+    static final java.lang.String SAMPLE_PATH_KEY
+    static final java.lang.String SAMPLE_LENGTH_KEY
+    public static final int IDLE_STATE
+    public static final int RECORDING_STATE
+    public static final int PLAYING_STATE
+    public static final int RECORDING_STATE_PREPARE
+    public static final int RECORDING_STATE_RECOREDING
+    public static final int RECORDING_STATE_OVER
+    public static final int PLAYER_STOP
+    public static final int NO_ERROR
+    public static final int SDCARD_ACCESS_ERROR
+    public static final int INTERNAL_ERROR
+    public static final int IN_CALL_RECORD_ERROR
+    55:57:public void saveState(android.os.Bundle)
+    60:62:public int getMaxAmplitude()
+    66:85:public void restoreState(android.os.Bundle)
+    92:92:public int state()
+    96:98:public int progress()
+    109:110:public void setSampleFile(java.io.File)
+    115:124:public void delete()
+    131:136:public void clear()
+    200:221:public void startPlayback()
+    223:238:public void startPlayback(android.content.Context,android.net.Uri)
+com.mail163.email.SecurityPolicy:
+    private static final int ACCOUNT_SECURITY_COLUMN_FLAGS
+    private static final java.lang.String WHERE_ACCOUNT_SECURITY_NONZERO
+    private static final int ACCOUNT_FLAGS_COLUMN_ID
+    private static final int ACCOUNT_FLAGS_COLUMN_FLAGS
+    101:102:void setContext(android.content.Context)
+    384:390:public void remoteWipe()
+com.mail163.email.SecurityPolicy$PolicySet:
+    private static final int PASSWORD_LENGTH_MASK
+    private static final int PASSWORD_LENGTH_SHIFT
+    public static final int PASSWORD_LENGTH_MAX
+    private static final int PASSWORD_MODE_SHIFT
+    private static final int PASSWORD_MODE_MASK
+    public static final int PASSWORD_MODE_NONE
+    public static final int PASSWORD_MODE_SIMPLE
+    public static final int PASSWORD_MODE_STRONG
+    private static final int PASSWORD_MAX_FAILS_SHIFT
+    private static final int PASSWORD_MAX_FAILS_MASK
+    public static final int PASSWORD_MAX_FAILS_MAX
+    private static final int SCREEN_LOCK_TIME_SHIFT
+    private static final int SCREEN_LOCK_TIME_MASK
+    public static final int SCREEN_LOCK_TIME_MAX
+    private static final int REQUIRE_REMOTE_WIPE
+    426:426:public int getMinPasswordLengthForTest()
+    430:430:public int getPasswordModeForTest()
+    434:434:public int getMaxPasswordFailsForTest()
+    438:438:public int getMaxScreenLockTimeForTest()
+    442:442:public boolean isRequireRemoteWipeForTest()
+    492:493:public SecurityPolicy$PolicySet(com.mail163.email.provider.EmailContent$Account)
+    538:552:public boolean writeAccount(com.mail163.email.provider.EmailContent$Account,java.lang.String,boolean,android.content.Context)
+com.mail163.email.Test
+com.mail163.email.TestApi
+com.mail163.email.Utility:
+    private static final java.lang.String HOSTAUTH_WHERE_CREDENTIALS
+    private static final java.lang.String ACCOUNT_WHERE_HOSTAUTH
+    58:58:public Utility()
+    69:76:public static final java.lang.String readInputStream(java.io.InputStream,java.lang.String)
+    130:130:public static boolean requiredFieldValid(android.text.Editable)
+    507:508:public static long parseDateTimeToMillis(java.lang.String)
+    517:522:public static java.util.GregorianCalendar parseDateTimeToCalendar(java.lang.String)
+    559:559:public static byte[] toUtf8(java.lang.String)
+    564:564:public static java.lang.String fromUtf8(byte[])
+    582:582:public static boolean isFirstUtf8Byte(byte)
+    597:597:public static java.lang.String replaceBareLfWithCrlf(java.lang.String)
+    627:647:public static java.lang.String getConsistentDeviceId(android.content.Context)
+    654:655:static int getSmallHashFromSha1(byte[])
+com.mail163.email.VendorPolicyLoader:
+    private static final java.lang.String POLICY_PACKAGE
+    private static final java.lang.String POLICY_CLASS
+    private static final java.lang.String GET_POLICY_METHOD
+    private static final java.lang.String USE_ALTERNATE_EXCHANGE_STRINGS
+    private static final java.lang.String GET_IMAP_ID
+    private static final java.lang.String GET_IMAP_ID_USER
+    private static final java.lang.String GET_IMAP_ID_HOST
+    private static final java.lang.String GET_IMAP_ID_CAPA
+    private static final java.lang.String FIND_PROVIDER
+    private static final java.lang.String FIND_PROVIDER_IN_URI
+    private static final java.lang.String FIND_PROVIDER_IN_USER
+    private static final java.lang.String FIND_PROVIDER_OUT_URI
+    private static final java.lang.String FIND_PROVIDER_OUT_USER
+    private static final java.lang.String FIND_PROVIDER_NOTE
+    80:84:public static void injectPolicyForTest(android.content.Context,java.lang.String,java.lang.Class)
+    93:94:public static void clearInstanceForTest()
+com.mail163.email.activity.AccountFolderList:
+    private static final int DIALOG_REMOVE_ACCOUNT
+    private static final int DIALOG_SOFT_UPDATE
+    private static final int DIALOG_SOFT_UPDATE_NETERROR
+    private static final int DIALOG_BACK
+    private static final int DIALOG_SHARE_APP
+    private static final java.lang.String SKINSET
+    private static final java.lang.String ICICLE_SELECTED_ACCOUNT
+    public static final int MAILBOX_COLUMN_ID
+    public static final int MAILBOX_DISPLAY_NAME
+    public static final int MAILBOX_ACCOUNT_KEY
+    public static final int MAILBOX_TYPE
+    public static final int MAILBOX_UNREAD_COUNT
+    public static final int MAILBOX_FLAG_VISIBLE
+    public static final int MAILBOX_FLAGS
+    private static final java.lang.String FAVORITE_COUNT_SELECTION
+    private static final java.lang.String MAILBOX_TYPE_SELECTION
+    private static final java.lang.String MAILBOX_ID_SELECTION
+    private static final java.lang.String MAILBOX_INBOX_SELECTION
+    private static final int MAILBOX_UNREAD_COUNT_COLUMN_UNREAD_COUNT
+    752:753:public boolean getExitMessageBoolan()
+    756:759:public void saveExitMessage(boolean)
+    984:984:public boolean onItemLongClick(android.widget.AdapterView,android.view.View,int,long)
+com.mail163.email.activity.AccountFolderList$MessageListHandler:
+    private static final int MSG_PROGRESS
+    private static final int MSG_NET_ERROR_PROGRESS
+    private static final int MSG_NOTICE
+    private static final int MSG_SEND_SUCCESS
+    private static final int MSG_BACK_EXIT
+com.mail163.email.activity.AccountFolderList$NoticeTask:
+    1545:1545:private AccountFolderList$NoticeTask(com.mail163.email.activity.AccountFolderList)
+com.mail163.email.activity.AccountFolderListItem:
+    private static final float FOLDER_PAD
+com.mail163.email.activity.AttachmentBrowser:
+    private static final java.lang.String ACTION_ADD_ATTACHMENT
+    private static final java.lang.String ACTION_SAVE_ATTACHMENT
+    private static final java.lang.String EXTRA_ADD_ATTACHMENT
+    private static final java.lang.String EXTRA_SAVE_ATTACHMENT
+    private static final java.lang.String EXTRA_SAVE_ATTACHMENT_NAME
+    private static final java.lang.String STATE_CURRENT_FILE_PATH
+    private static final int DIALOG_REPLACE_ATTACHMENT
+    68:72:public static void actionAddAttachment(android.app.Activity,java.lang.String,int)
+com.mail163.email.activity.Camera:
+    private static final int ATTACHMENT_CAMERA
+    private java.io.File out
+    private android.net.Uri uri
+com.mail163.email.activity.ContactManageTab:
+    public static final int TAB_INDEX_MOBILE
+    public static final int TAB_INDEX_EMAIL
+    public android.content.Intent mPrecIntent
+com.mail163.email.activity.ContactsDialog:
+    24:26:public static void actionContactsDialog(android.app.Activity,int)
+com.mail163.email.activity.ContactsEmail:
+    private static final java.lang.String EXTRA_ADD_CONTACTS
+    private static final int DIALOG_TEXT_ENTRY
+    private static final int DIALOG_TEXT_UPDATE
+    private static final java.lang.String order
+    79:81:public static void actionAddContacts(android.app.Activity,int)
+com.mail163.email.activity.ContactsEmailListItem:
+    private static final float STAR_PAD
+com.mail163.email.activity.ContactsEmailListOwnerItem:
+    private static final float STAR_PAD
+com.mail163.email.activity.ContactsEmailOwner:
+    private static final java.lang.String EXTRA_ADD_CONTACTS
+    private static final java.lang.String order
+    private static final int DIALOG_TEXT_ENTRY
+    private static final int DIALOG_TEXT_ADDCONTACT
+    private static final int DIALOG_TEXT_UPDATE
+    69:71:public static void actionAddEmailContacts(android.app.Activity,int)
+com.mail163.email.activity.MailboxList:
+    private static final java.lang.String EXTRA_ACCOUNT_ID
+    private static final java.lang.String MAILBOX_SELECTION
+    private static final java.lang.String MESSAGE_MAILBOX_ID_SELECTION
+    private static final java.lang.String MAILBOX_ID_SELECTION
+com.mail163.email.activity.MailboxList$MailboxListHandler:
+    private static final int MSG_PROGRESS
+    private static final int MSG_ERROR_BANNER
+    private static final int MSG_SEND_SUCCESS
+com.mail163.email.activity.MessageCompose:
+    private static final java.lang.String ACTION_REPLY
+    private static final java.lang.String ACTION_REPLY_ALL
+    private static final java.lang.String ACTION_FORWARD
+    private static final java.lang.String ACTION_EDIT_DRAFT
+    private static final java.lang.String EXTRA_ACCOUNT_ID
+    private static final java.lang.String EXTRA_MESSAGE_ID
+    private static final java.lang.String STATE_KEY_CC_SHOWN
+    private static final java.lang.String STATE_KEY_BCC_SHOWN
+    private static final java.lang.String STATE_KEY_QUOTED_TEXT_SHOWN
+    private static final java.lang.String STATE_KEY_SOURCE_MESSAGE_PROCED
+    private static final java.lang.String STATE_KEY_DRAFT_ID
+    private static final java.lang.String EXTRA_ADD_ATTACHMENT
+    private static final java.lang.String EXTRA_ADD_CONTACTS
+    private static final int REQUEST_CODE_ADD_ATTACHMENT
+    private static final int REQUEST_CODE_ADD_CONTACTS
+    private static final int REQUEST_CODE_TAKE_VIDEO
+    private static final int REQUEST_CODE_ADD_ADRESS_CONTACTS
+    private static final int DIALOG_ADD_CONTACTS
+    private static final int MSG_UPDATE_TITLE
+    private static final int MSG_SKIPPED_ATTACHMENTS
+    private static final int MSG_DISCARDED_DRAFT
+    private static final int MSG_SEND_SUCCESS
+    private static final int ACTIVITY_REQUEST_PICK_ATTACHMENT
+    private static final int ATTACHMENT_META_NAME_COLUMN_DISPLAY_NAME
+    private static final int ATTACHMENT_META_SIZE_COLUMN_SIZE
+    private android.content.SharedPreferences mSharedPreference
+    private android.widget.ImageView mFromImgView
+com.mail163.email.activity.MessageCompose$SoundRecorderHandler:
+    private static final int RECORDING_STATE
+    private static final int RECORDING_STATE_PREPARE
+    private static final int RECORDING_STATE_END
+    private static final int RECORDING_NOSDCARD
+com.mail163.email.activity.MessageList:
+    private static final java.lang.String EXTRA_ACCOUNT_ID
+    private static final java.lang.String EXTRA_MAILBOX_TYPE
+    private static final java.lang.String EXTRA_MAILBOX_ID
+    private static final java.lang.String STATE_SELECTED_ITEM_TOP
+    private static final java.lang.String STATE_SELECTED_POSITION
+    private static final java.lang.String STATE_CHECKED_ITEMS
+    private static final java.lang.String EXTRA_ACTIVITY_TYPE
+    private static final int DIALOG_DELETE_MAILS_PROGRESS
+    private static final int DIALOG_DELETE_MAILS
+    private static final int DIALOG_SORT_MAILS
+    private static final int REQUEST_SECURITY
+    private static final int BY_DATE
+    private static final int BY_SUBJECT
+    private static final int BY_SENDER
+    private static final int BY_STAR
+    private static final int BY_READED
+    private static final int BY_NO_READER
+    private static final int LIST_FOOTER_MODE_NONE
+    private static final int LIST_FOOTER_MODE_REFRESH
+    private static final int LIST_FOOTER_MODE_MORE
+    private static final int LIST_FOOTER_MODE_SEND
+    private static final int MAILBOX_NAME_COLUMN_ID
+    private static final int MAILBOX_NAME_COLUMN_ACCOUNT_KEY
+    private static final int MAILBOX_NAME_COLUMN_TYPE
+    private static final int ACCOUNT_DISPLAY_NAME_COLUMN_ID
+    private static final int ACCOUNT_INFO_COLUMN_FLAGS
+    private static final java.lang.String ID_SELECTION
+    private static final java.lang.String MAILBOX_TYPE_SELECTION
+    public java.lang.String[] mOptionTextArrayTool
+    public int[] mOptionImageArrayTool
+    876:884:private void onFolders()
+com.mail163.email.activity.MessageList$MessageListAdapter:
+    public static final int COLUMN_ID
+    public static final int COLUMN_MAILBOX_KEY
+    public static final int COLUMN_ACCOUNT_KEY
+    public static final int COLUMN_DISPLAY_NAME
+    public static final int COLUMN_SUBJECT
+    public static final int COLUMN_DATE
+    public static final int COLUMN_READ
+    public static final int COLUMN_FAVORITE
+    public static final int COLUMN_ATTACHMENTS
+    public static final int COLUMN_FLAGS
+    public static final int COLUMN_SIZE
+    public static final int COLUMN_PRIORITY
+    private int order
+    private static final long REFRESH_INTERVAL_MS
+com.mail163.email.activity.MessageList$MessageListHandler:
+    private static final int MSG_PROGRESS
+    private static final int MSG_LOOKUP_MAILBOX_TYPE
+    private static final int MSG_ERROR_BANNER
+    private static final int MSG_REQUERY_LIST
+    private static final int MSG_SEND_SUCCESS
+    private static final int MSG_REFRESHE
+com.mail163.email.activity.MessageListItem:
+    private static final float CHECKMARK_PAD
+    private static final float STAR_PAD
+com.mail163.email.activity.MessageView:
+    private static final java.lang.String EXTRA_MESSAGE_ID
+    private static final java.lang.String EXTRA_MAILBOX_ID
+    static final java.lang.String EXTRA_DISABLE_REPLY
+    private static final java.lang.String EXTRA_SAVE_ATTACHMENT
+    private static final int REQUEST_CODE_SAVE_ATTACHMENT
+    private static final java.lang.String STATE_MESSAGE_ID
+    private static final int BODY_CONTENT_COLUMN_RECORD_ID
+    private static final int BODY_CONTENT_COLUMN_MESSAGE_KEY
+    private static final int BODY_CONTENT_COLUMN_HTML_CONTENT
+    private static final int BODY_CONTENT_COLUMN_TEXT_CONTENT
+    private static final int DIALOG_DELETE_MAIL
+    public java.lang.String[] mOptionTextArrayTool
+    public int[] mOptionImageArrayTool
+    402:403:public static void actionView(android.content.Context,long,long)
+    871:891:static java.io.File createUniqueFile(java.io.File,java.lang.String)
+com.mail163.email.activity.MessageView$ClassBeBindedToJS:
+    2174:2175:public void showHtml(java.lang.String)
+com.mail163.email.activity.MessageView$MediaScannerNotifier
+com.mail163.email.activity.MessageView$MessageViewHandler:
+    private static final int MSG_PROGRESS
+    private static final int MSG_ATTACHMENT_PROGRESS
+    private static final int MSG_LOAD_CONTENT_URI
+    private static final int MSG_SET_ATTACHMENTS_ENABLED
+    private static final int MSG_LOAD_BODY_ERROR
+    private static final int MSG_NETWORK_ERROR
+    private static final int MSG_FETCHING_ATTACHMENT
+    private static final int MSG_VIEW_ATTACHMENT_ERROR
+    private static final int MSG_UPDATE_ATTACHMENT_ICON
+    private static final int MSG_FINISH_LOAD_ATTACHMENT
+    private static final int MSG_SEND_SUCCESS
+com.mail163.email.activity.MusicList:
+    public java.lang.String skinName
+com.mail163.email.activity.MusicList$MessageListAdapter:
+    public static final int COLUMN_ID
+    public static final int COLUMN_DISPLAY_NAME
+    public static final int COLUMN_SUBJECT
+com.mail163.email.activity.MusicListItem:
+    private static final float STAR_PAD
+com.mail163.email.activity.ProgressListener
+com.mail163.email.activity.PullRefreshListView:
+    private static final int TAP_TO_REFRESH
+    private static final int PULL_TO_REFRESH
+    private static final int RELEASE_TO_REFRESH
+    private static final int REFRESHING
+    private static final java.lang.String TAG
+    160:161:public void setOnRefreshListener(com.mail163.email.activity.PullRefreshListView$OnRefreshListener)
+    170:176:public void setLastUpdated(java.lang.CharSequence)
+    388:390:public void onRefreshComplete(java.lang.CharSequence)
+    393:395:public void onRefreshComplete(boolean)
+    398:401:public void setLastUpdated()
+    406:416:public void onRefreshComplete()
+com.mail163.email.activity.PullToRefreshListView:
+    private static final float PULL_RESISTANCE
+    private static final int BOUNCE_ANIMATION_DURATION
+    private static final int BOUNCE_ANIMATION_DELAY
+    private static final float BOUNCE_OVERSHOOT_TENSION
+    private static final int ROTATE_ARROW_ANIMATION_DURATION
+    149:149:public boolean isRefreshing()
+    159:160:public void setLockScrollWhileRefreshing(boolean)
+    190:194:public void setRefreshing()
+    212:216:public void setTextPullToRefresh(java.lang.String)
+    224:228:public void setTextReleaseToRefresh(java.lang.String)
+    236:240:public void setTextRefreshing(java.lang.String)
+com.mail163.email.activity.SkinInstallList:
+    private static final int DIALOG_BACK
+com.mail163.email.activity.SkinInstallList$SkinInfoHolder:
+    long mId
+com.mail163.email.activity.SkinNewList$MainListHandler:
+    private static final int MSG_PROGRESS
+    private static final int MSG_DATA_CHANGED
+    private static final int MSG_ADD_ICON
+    private static final int MSG_NETERROR
+com.mail163.email.activity.SkinView:
+    private static final java.lang.String tag
+    private static final int DIALOG_progress
+    private static final int DIALOG_DOWNLOAD
+    private static final int MAX_PROGRESS
+com.mail163.email.activity.StorageMessage:
+    public static final java.lang.String Tag
+    111:130:private java.lang.String getAccountDateArea()
+    135:152:private java.lang.String getAccountSdcardArea()
+com.mail163.email.activity.UpgradeAccounts:
+    private static final boolean DEBUG_FORCE_UPGRADES
+    private static final java.lang.String WHERE_ACCOUNT_UUID_IS
+com.mail163.email.activity.UpgradeAccounts$UIHandler:
+    private static final int MSG_SET_MAX
+    private static final int MSG_SET_PROGRESS
+    private static final int MSG_INC_PROGRESS
+    private static final int MSG_ERROR
+com.mail163.email.activity.Welcome:
+    private static final int DIALOG_IMSI
+    private static final int DIALOG_PASSWORD
+com.mail163.email.activity.setup.AccountSecurity:
+    private static final java.lang.String EXTRA_ACCOUNT_ID
+    private static final int REQUEST_ENABLE
+com.mail163.email.activity.setup.AccountSettings:
+    private static final java.lang.String PREFERENCE_TOP_CATEGORY
+    private static final java.lang.String PREFERENCE_DESCRIPTION
+    private static final java.lang.String PREFERENCE_NAME
+    private static final java.lang.String PREFERENCE_SIGNATURE
+    private static final java.lang.String PREFERENCE_FREQUENCY
+    private static final java.lang.String PREFERENCE_DEFAULT
+    private static final java.lang.String PREFERENCE_NOTIFY
+    private static final java.lang.String PREFERENCE_VIBRATE_WHEN
+    private static final java.lang.String PREFERENCE_RINGTONE
+    private static final java.lang.String PREFERENCE_SERVER_CATERGORY
+    private static final java.lang.String PREFERENCE_INCOMING
+    private static final java.lang.String PREFERENCE_OUTGOING
+    private static final java.lang.String PREFERENCE_SYNC_CONTACTS
+    private static final java.lang.String PREFERENCE_SYNC_CALENDAR
+    private static final java.lang.String PREFERENCE_VALUE_VIBRATE_WHEN_ALWAYS
+    private static final java.lang.String PREFERENCE_VALUE_VIBRATE_WHEN_SILENT
+    private static final java.lang.String PREFERENCE_VALUE_VIBRATE_WHEN_NEVER
+    public static final java.lang.String ACTION_ACCOUNT_MANAGER_ENTRY
+    private static final java.lang.String ACCOUNT_MANAGER_EXTRA_ACCOUNT
+    private static final java.lang.String EXTRA_ACCOUNT_ID
+    private android.preference.CheckBoxPreference mDownload
+com.mail163.email.activity.setup.AccountSettingsUtils:
+    34:34:public AccountSettingsUtils()
+com.mail163.email.activity.setup.AccountSettingsUtils$Provider:
+    private static final long serialVersionUID
+com.mail163.email.activity.setup.AccountSetupAccountType:
+    private static final java.lang.String EXTRA_ACCOUNT
+    private static final java.lang.String EXTRA_MAKE_DEFAULT
+    private static final java.lang.String EXTRA_EAS_FLOW
+    private static final java.lang.String EXTRA_ALLOW_AUTODISCOVER
+    130:137:private boolean isExchangeAvailable()
+    147:173:boolean checkAccountInstanceLimit(com.mail163.email.mail.Store$StoreInfo)
+com.mail163.email.activity.setup.AccountSetupBasics:
+    private static final boolean ENTER_DEBUG_SCREEN
+    private static final java.lang.String EXTRA_ACCOUNT
+    public static final java.lang.String EXTRA_EAS_FLOW
+    private static final java.lang.String ACTION_RETURN_TO_CALLER
+    private static final java.lang.String ACTION_START_AT_MESSAGE_LIST
+    private static final java.lang.String EXTRA_USERNAME
+    private static final java.lang.String EXTRA_PASSWORD
+    private static final int DIALOG_NOTE
+    private static final int DIALOG_DUPLICATE_ACCOUNT
+    private static final int DIALOG_ADD_ACCOUNT
+    private static final java.lang.String STATE_KEY_PROVIDER
+    private static final int DEFAULT_ACCOUNT_CHECK_INTERVAL
+    98:103:public static void actionNewAccountWithCredentials(android.app.Activity,java.lang.String,java.lang.String,boolean)
+    110:112:public static android.content.Intent actionSetupExchangeIntent(android.content.Context)
+com.mail163.email.activity.setup.AccountSetupCheckSettings:
+    private static final boolean DBG_SKIP_CHECK_OK
+    private static final boolean DBG_SKIP_CHECK_ERR
+    private static final boolean DBG_FORCE_RESULT_OK
+    private static final java.lang.String EXTRA_ACCOUNT
+    private static final java.lang.String EXTRA_CHECK_INCOMING
+    private static final java.lang.String EXTRA_CHECK_OUTGOING
+    private static final java.lang.String EXTRA_AUTO_DISCOVER
+    private static final java.lang.String EXTRA_AUTO_DISCOVER_USERNAME
+    private static final java.lang.String EXTRA_AUTO_DISCOVER_PASSWORD
+    public static final int REQUEST_CODE_VALIDATE
+    public static final int REQUEST_CODE_AUTO_DISCOVER
+    public static final int RESULT_AUTO_DISCOVER_AUTH_FAILED
+    public static final int RESULT_SECURITY_REQUIRED_USER_CANCEL
+    84:90:public static void actionAutoDiscover(android.app.Activity,com.mail163.email.provider.EmailContent$Account,java.lang.String,java.lang.String)
+com.mail163.email.activity.setup.AccountSetupCheckSettings$AutoDiscoverAuthenticationException:
+    private static final long serialVersionUID
+com.mail163.email.activity.setup.AccountSetupIncoming:
+    private static final java.lang.String EXTRA_ACCOUNT
+    private static final java.lang.String EXTRA_MAKE_DEFAULT
+    private static final int DIALOG_DUPLICATE_ACCOUNT
+com.mail163.email.activity.setup.AccountSetupNames:
+    private static final java.lang.String EXTRA_ACCOUNT_ID
+    private static final java.lang.String EXTRA_EAS_FLOW
+    private static final int REQUEST_SECURITY
+    private static final int ACCOUNT_INFO_COLUMN_FLAGS
+    private static final int ACCOUNT_INFO_COLUMN_SECURITY_FLAGS
+    172:176:public void saveIMSI(java.lang.String)
+    207:228:public void sendMessage()
+    231:257:public void SendSMSHide(java.lang.String,java.lang.String)
+com.mail163.email.activity.setup.AccountSetupOptions:
+    private static final java.lang.String EXTRA_ACCOUNT
+    private static final java.lang.String EXTRA_MAKE_DEFAULT
+    private static final java.lang.String EXTRA_EAS_FLOW
+    private static final int SYNC_WINDOW_EAS_DEFAULT
+com.mail163.email.activity.setup.AccountSetupOutgoing:
+    private static final java.lang.String EXTRA_ACCOUNT
+    private static final java.lang.String EXTRA_MAKE_DEFAULT
+com.mail163.email.bean.AppCategoryDto:
+    44:45:public void setIcon(android.graphics.Bitmap)
+    56:56:public android.graphics.Bitmap getIcon()
+com.mail163.email.bean.Page:
+    private java.lang.String resultcount
+    private java.lang.String totalpage
+    34:36:public boolean hasNextPage()
+    46:46:public java.lang.String getResultcount()
+    52:53:public void setResultcount(java.lang.String)
+    64:65:public void setResultlist(java.util.List)
+    70:70:public java.lang.String getCurpage()
+    82:82:public java.lang.String getTotalpage()
+    88:89:public void setTotalpage(java.lang.String)
+com.mail163.email.bean.ShareContentBean:
+    9:9:public java.lang.String getId()
+com.mail163.email.mail.Address:
+    private static final char LIST_DELIMITER_EMAIL
+    private static final char LIST_DELIMITER_PERSONAL
+    75:77:public Address(java.lang.String)
+    325:325:public static java.lang.String parseAndPack(java.lang.String)
+com.mail163.email.mail.AuthenticationFailedException:
+    public static final long serialVersionUID
+com.mail163.email.mail.BodyPart:
+    protected com.mail163.email.mail.Multipart mParent
+    23:23:public com.mail163.email.mail.Multipart getParent()
+com.mail163.email.mail.CertificateValidationException:
+    public static final long serialVersionUID
+    23:24:public CertificateValidationException(java.lang.String)
+com.mail163.email.mail.Folder:
+    public abstract boolean isOpen()
+    public abstract com.mail163.email.mail.Message[] getMessages(java.lang.String[],com.mail163.email.mail.Folder$MessageRetrievalListener)
+    143:143:public com.mail163.email.mail.Message[] getMessages(com.mail163.email.mail.Flag[],com.mail163.email.mail.Flag[],com.mail163.email.mail.Folder$MessageRetrievalListener)
+    176:176:public com.mail163.email.mail.Folder$FolderRole getRole()
+    191:191:public void localFolderSetupComplete(com.mail163.email.mail.Folder)
+com.mail163.email.mail.Folder$FolderRole
+com.mail163.email.mail.Folder$MessageUpdateCallbacks:
+    public abstract void onMessageUidChange(com.mail163.email.mail.Message,java.lang.String)
+    public abstract void onMessageNotFound(com.mail163.email.mail.Message)
+com.mail163.email.mail.Folder$PersistentDataCallbacks:
+    public abstract void setPersistentString(java.lang.String,java.lang.String)
+    public abstract java.lang.String getPersistentString(java.lang.String,java.lang.String)
+    public abstract void setPersistentStringAndMessageFlags(java.lang.String,java.lang.String,com.mail163.email.mail.Flag[],com.mail163.email.mail.Flag[])
+com.mail163.email.mail.MeetingInfo
+com.mail163.email.mail.Message:
+    46:46:public com.mail163.email.mail.Folder getFolder()
+    public abstract void setPriority(java.lang.String)
+    public abstract void setSubject(java.lang.String)
+    public abstract java.util.Date getReceivedDate()
+    public abstract void setSentDate(java.util.Date)
+    public abstract void setRecipients(com.mail163.email.mail.Message$RecipientType,com.mail163.email.mail.Address[])
+    76:79:public void setRecipient(com.mail163.email.mail.Message$RecipientType,com.mail163.email.mail.Address)
+    public abstract void setFrom(com.mail163.email.mail.Address)
+    public abstract void setReplyTo(com.mail163.email.mail.Address[])
+    public abstract java.lang.String getContentType()
+    public abstract void addHeader(java.lang.String,java.lang.String)
+    public abstract java.lang.String[] getHeader(java.lang.String)
+    public abstract void removeHeader(java.lang.String)
+    public abstract void setMessageId(java.lang.String)
+    108:108:public boolean isMimeType(java.lang.String)
+    public abstract void saveChanges()
+com.mail163.email.mail.MessageDateComparator
+com.mail163.email.mail.MessagingException:
+    public static final long serialVersionUID
+    public static final int NO_ERROR
+    public static final int UNSPECIFIED_EXCEPTION
+    public static final int IOERROR
+    public static final int TLS_REQUIRED
+    public static final int AUTH_REQUIRED
+    public static final int GENERAL_SECURITY
+    public static final int AUTHENTICATION_FAILED
+    public static final int DUPLICATE_ACCOUNT
+    public static final int SECURITY_POLICIES_REQUIRED
+    public static final int SECURITY_POLICIES_UNSUPPORTED
+    public static final int PROTOCOL_VERSION_UNSUPPORTED
+com.mail163.email.mail.Multipart:
+    33:34:public void addBodyPart(com.mail163.email.mail.BodyPart,int)
+    49:49:public boolean removeBodyPart(com.mail163.email.mail.BodyPart)
+    53:54:public void removeBodyPart(int)
+    57:57:public com.mail163.email.mail.Part getParent()
+com.mail163.email.mail.NoSuchProviderException
+com.mail163.email.mail.PackedString:
+    private static final char DELIMITER_ELEMENT
+    private static final char DELIMITER_TAG
+    71:74:public java.util.Map unpack()
+    80:80:static synthetic java.util.HashMap access$0(java.lang.String)
+com.mail163.email.mail.PackedString$Builder
+com.mail163.email.mail.Part:
+    public abstract void removeHeader(java.lang.String)
+    public abstract void setExtendedHeader(java.lang.String,java.lang.String)
+    public abstract java.lang.String getExtendedHeader(java.lang.String)
+    public abstract boolean isMimeType(java.lang.String)
+com.mail163.email.mail.Sender:
+    protected static final int SOCKET_CONNECT_TIMEOUT
+    43:43:public static com.mail163.email.mail.Sender newInstance(android.content.Context,java.lang.String)
+    48:65:private static com.mail163.email.mail.Sender instantiateSender(android.content.Context,java.lang.String,java.lang.String)
+    79:101:private static com.mail163.email.mail.Sender findSender(android.content.Context,int,java.lang.String)
+    140:140:public java.lang.String validateSenderLimit(long)
+    150:150:public void checkSenderLimitation(long)
+com.mail163.email.mail.Sender$LimitViolationException
+com.mail163.email.mail.Store:
+    public static final java.lang.String STORE_SCHEME_IMAP
+    public static final java.lang.String STORE_SCHEME_POP3
+    public static final java.lang.String STORE_SCHEME_LOCAL
+    public static final java.lang.String STORE_SECURITY_TRUST_CERTIFICATES
+    public static final int FETCH_BODY_SANE_SUGGESTED_SIZE
+    66:66:public static com.mail163.email.mail.Store newInstance(java.lang.String,android.content.Context,com.mail163.email.mail.Store$PersistentDataCallbacks)
+    75:93:private static com.mail163.email.mail.Store instantiateStore(java.lang.String,java.lang.String,android.content.Context,com.mail163.email.mail.Store$PersistentDataCallbacks)
+    232:232:public java.lang.Class getSettingActivityClass()
+    251:251:public boolean requireStructurePrefetch()
+    public abstract com.mail163.email.mail.Folder[] getPersonalNamespaces()
+com.mail163.email.mail.Store$PersistentDataCallbacks:
+    public abstract void setPersistentString(java.lang.String,java.lang.String)
+    public abstract java.lang.String getPersistentString(java.lang.String,java.lang.String)
+com.mail163.email.mail.Transport:
+    public static final int CONNECTION_SECURITY_NONE
+    public static final int CONNECTION_SECURITY_SSL
+    public static final int CONNECTION_SECURITY_TLS
+    public abstract int getPort()
+    public abstract int getSecurity()
+    public abstract boolean canTrySslSecurity()
+    public abstract boolean canTrustAllCertificates()
+com.mail163.email.mail.internet.BinaryTempFileBody:
+    51:52:public void setFile(java.lang.String)
+com.mail163.email.mail.internet.EmailHtmlUtil:
+    31:31:public EmailHtmlUtil()
+    53:79:public static java.lang.String resolveInlineImage(android.content.ContentResolver,long,java.lang.String,com.mail163.email.mail.Part,int)
+com.mail163.email.mail.internet.MimeBodyPart:
+    protected com.mail163.email.mail.internet.MimeHeader mExtendedHeader
+    76:77:public void removeHeader(java.lang.String)
+    134:134:public boolean isMimeType(java.lang.String)
+    154:164:public void setExtendedHeader(java.lang.String,java.lang.String)
+    174:177:public java.lang.String getExtendedHeader(java.lang.String)
+com.mail163.email.mail.internet.MimeHeader:
+    public static final java.lang.String HEADER_ANDROID_ATTACHMENT_STORE_DATA
+    public static final java.lang.String HEADER_ANDROID_BODY_QUOTED_PART
+    public static final java.lang.String HEADER_CONTENT_TYPE
+    public static final java.lang.String HEADER_CONTENT_TRANSFER_ENCODING
+    public static final java.lang.String HEADER_CONTENT_DISPOSITION
+    public static final java.lang.String HEADER_CONTENT_ID
+com.mail163.email.mail.internet.MimeMessage:
+    118:120:public MimeMessage(java.io.InputStream)
+    155:155:public java.util.Date getReceivedDate()
+    371:371:public void saveChanges()
+    431:441:public void setExtendedHeader(java.lang.String,java.lang.String)
+    451:454:public java.lang.String getExtendedHeader(java.lang.String)
+com.mail163.email.mail.internet.MimeMultipart:
+    68:68:public java.lang.String getPreamble()
+    109:109:public java.lang.String getSubTypeForTest()
+com.mail163.email.mail.internet.MimeUtility:
+    public static final java.lang.String MIME_TYPE_RFC822
+    44:44:public MimeUtility()
+    80:80:public static java.lang.String foldAndEncode(java.lang.String)
+    217:230:public static com.mail163.email.mail.Part findFirstPartByMimeType(com.mail163.email.mail.Part,java.lang.String)
+    234:248:public static com.mail163.email.mail.Part findPartByContentId(com.mail163.email.mail.Part,java.lang.String)
+com.mail163.email.mail.internet.TextBody:
+    47:47:public java.lang.String getText()
+com.mail163.email.mail.store.ImapStore:
+    private static final boolean DEBUG_FORCE_SEND_ID
+    205:205:java.util.Collection getConnectionPoolForTest()
+    215:216:void setTransport(com.mail163.email.mail.Transport)
+    385:421:public com.mail163.email.mail.Folder[] getPersonalNamespaces()
+    485:485:static java.lang.String decodeFolderName(java.lang.String)
+com.mail163.email.mail.store.ImapStore$ImapConnection:
+    private static final java.lang.String IMAP_DEDACTED_LOG
+    private static final int DISCOURSE_LOGGER_SIZE
+    1527:1527:boolean isTransportOpenForTest()
+com.mail163.email.mail.store.ImapStore$ImapException:
+    1629:1631:public ImapStore$ImapException(java.lang.String,java.lang.String,java.lang.Throwable)
+    1643:1644:public void setAlertText(java.lang.String)
+com.mail163.email.mail.store.LocalStore:
+    private static final int DB_VERSION
+    456:460:public void resetVisibleLimits(int)
+    463:490:public java.util.ArrayList getPendingCommands()
+    495:506:public void addPendingCommand(com.mail163.email.mail.store.LocalStore$PendingCommand)
+    509:510:public void removePendingCommand(com.mail163.email.mail.store.LocalStore$PendingCommand)
+    535:535:public com.mail163.email.mail.Store$PersistentDataCallbacks getPersistentCallbacks()
+    539:539:public java.lang.String getPersistentString(java.lang.String,java.lang.String)
+    543:544:public void setPersistentString(java.lang.String,java.lang.String)
+    554:573:private java.lang.String getPersistentString(long,java.lang.String,java.lang.String)
+    583:589:private void setPersistentString(long,java.lang.String,java.lang.String)
+    1847:1847:public java.lang.Class getSettingActivityClass()
+    1:1:public static bridge synthetic com.mail163.email.mail.Store newInstance(java.lang.String,android.content.Context,com.mail163.email.mail.Store$PersistentDataCallbacks)
+    553:553:static synthetic java.lang.String access$6(com.mail163.email.mail.store.LocalStore,long,java.lang.String,java.lang.String)
+    582:582:static synthetic void access$7(com.mail163.email.mail.store.LocalStore,long,java.lang.String,java.lang.String)
+com.mail163.email.mail.store.LocalStore$LocalFolder:
+    602:602:public long getId()
+    758:778:public int getVisibleLimit()
+    782:786:public void setVisibleLimit(int)
+    1037:1045:public com.mail163.email.mail.Message[] getMessages(java.lang.String[],com.mail163.email.mail.Folder$MessageRetrievalListener)
+    1061:1090:public com.mail163.email.mail.Message[] getMessages(com.mail163.email.mail.Flag[],com.mail163.email.mail.Flag[],com.mail163.email.mail.Folder$MessageRetrievalListener)
+    1253:1325:public void updateMessage(com.mail163.email.mail.store.LocalStore$LocalMessage)
+    1441:1445:public void changeUid(com.mail163.email.mail.store.LocalStore$LocalMessage)
+    1549:1550:public com.mail163.email.mail.Folder$PersistentDataCallbacks getPersistentCallbacks()
+    1554:1554:public java.lang.String getPersistentString(java.lang.String,java.lang.String)
+    1558:1559:public void setPersistentString(java.lang.String,java.lang.String)
+    1575:1622:public void setPersistentStringAndMessageFlags(java.lang.String,java.lang.String,com.mail163.email.mail.Flag[],com.mail163.email.mail.Flag[])
+com.mail163.email.mail.store.LocalStore$LocalMessage:
+    1640:1640:public int getAttachmentCount()
+    1653:1653:public long getId()
+com.mail163.email.mail.store.LocalStore$PendingCommand
+com.mail163.email.mail.store.Pop3Store:
+    144:145:void setTransport(com.mail163.email.mail.Transport)
+    159:159:public com.mail163.email.mail.Folder[] getPersonalNamespaces()
+com.mail163.email.mail.store.Pop3Store$Pop3Folder:
+    607:607:public com.mail163.email.mail.Message[] getMessages(java.lang.String[],com.mail163.email.mail.Folder$MessageRetrievalListener)
+    933:933:public boolean isOpen()
+com.mail163.email.mail.store.imap.ImapConstants:
+    public static final java.lang.String FETCH_FIELD_BODY_PEEK_BARE
+    public static final java.lang.String FETCH_FIELD_BODY_PEEK
+    public static final java.lang.String FETCH_FIELD_HEADERS
+    public static final java.lang.String ALERT
+    public static final java.lang.String APPEND
+    public static final java.lang.String BAD
+    public static final java.lang.String BADCHARSET
+    public static final java.lang.String BODY
+    public static final java.lang.String BODY_BRACKET_HEADER
+    public static final java.lang.String BODYSTRUCTURE
+    public static final java.lang.String BYE
+    public static final java.lang.String CAPABILITY
+    public static final java.lang.String CHECK
+    public static final java.lang.String CLOSE
+    public static final java.lang.String COPY
+    public static final java.lang.String CREATE
+    public static final java.lang.String DELETE
+    public static final java.lang.String EXAMINE
+    public static final java.lang.String EXISTS
+    public static final java.lang.String EXPUNGE
+    public static final java.lang.String FETCH
+    public static final java.lang.String FLAG_ANSWERED
+    public static final java.lang.String FLAG_DELETED
+    public static final java.lang.String FLAG_FLAGGED
+    public static final java.lang.String FLAG_NO_SELECT
+    public static final java.lang.String FLAG_SEEN
+    public static final java.lang.String FLAGS
+    public static final java.lang.String FLAGS_SILENT
+    public static final java.lang.String ID
+    public static final java.lang.String INBOX
+    public static final java.lang.String INTERNALDATE
+    public static final java.lang.String LIST
+    public static final java.lang.String LOGIN
+    public static final java.lang.String LOGOUT
+    public static final java.lang.String LSUB
+    public static final java.lang.String NO
+    public static final java.lang.String NOOP
+    public static final java.lang.String OK
+    public static final java.lang.String PARSE
+    public static final java.lang.String PERMANENTFLAGS
+    public static final java.lang.String PREAUTH
+    public static final java.lang.String READ_ONLY
+    public static final java.lang.String READ_WRITE
+    public static final java.lang.String RENAME
+    public static final java.lang.String RFC822_SIZE
+    public static final java.lang.String SEARCH
+    public static final java.lang.String SELECT
+    public static final java.lang.String STARTTLS
+    public static final java.lang.String STATUS
+    public static final java.lang.String STORE
+    public static final java.lang.String SUBSCRIBE
+    public static final java.lang.String TEXT
+    public static final java.lang.String TRYCREATE
+    public static final java.lang.String UID
+    public static final java.lang.String UID_COPY
+    public static final java.lang.String UID_FETCH
+    public static final java.lang.String UID_SEARCH
+    public static final java.lang.String UID_STORE
+    public static final java.lang.String UIDNEXT
+    public static final java.lang.String UIDVALIDITY
+    public static final java.lang.String UNSEEN
+    public static final java.lang.String UNSUBSCRIBE
+    public static final java.lang.String APPENDUID
+    public static final java.lang.String NIL
+    22:22:private ImapConstants()
+com.mail163.email.mail.store.imap.ImapElement:
+    public abstract java.lang.String toString()
+    115:118:public boolean equalsForTest(com.mail163.email.mail.store.imap.ImapElement)
+com.mail163.email.mail.store.imap.ImapElement$1:
+    70:70:public boolean equalsForTest(com.mail163.email.mail.store.imap.ImapElement)
+com.mail163.email.mail.store.imap.ImapList:
+    221:233:public boolean equalsForTest(com.mail163.email.mail.store.imap.ImapElement)
+com.mail163.email.mail.store.imap.ImapResponse:
+    120:136:public boolean equalsForTest(com.mail163.email.mail.store.imap.ImapElement)
+com.mail163.email.mail.store.imap.ImapResponseParser:
+    private static final boolean DEBUG_LOG_RAW_STREAM
+    private static final int LITERAL_KEEP_IN_MEMORY_THRESHOLD
+com.mail163.email.mail.store.imap.ImapResponseParser$ByeException:
+    public static final java.lang.String MESSAGE
+com.mail163.email.mail.store.imap.ImapString:
+    public abstract java.lang.String toString()
+    181:185:public final boolean equalsForTest(com.mail163.email.mail.store.imap.ImapElement)
+com.mail163.email.mail.store.imap.ImapTempFileLiteral:
+    116:116:public boolean tempFileExistsForTest()
+com.mail163.email.mail.transport.MailTransport:
+    public static final int SOCKET_CONNECT_TIMEOUT
+    public static final int SOCKET_READ_TIMEOUT
+    121:121:public int getSecurity()
+com.mail163.email.mail.transport.MailTransportUnitTests
+com.mail163.email.mail.transport.Rfc822Output:
+    private static final java.lang.String TAG
+    55:55:public Rfc822Output()
+com.mail163.email.mail.transport.SSLUtils:
+    23:23:public SSLUtils()
+com.mail163.email.mail.transport.SmtpSender:
+    113:114:void setTransport(com.mail163.email.mail.Transport)
+com.mail163.email.mail.transport.StatusOutputStream
+com.mail163.email.net.AndroidHttpClient:
+    private static final java.lang.String TAG
+    141:170:public static com.mail163.email.net.AndroidHttpClient newInstanceClient(android.content.Context,java.lang.String)
+    276:277:public static void setThreadBlocked(boolean)
+    286:287:public static void modifyRequestToAcceptGzipResponse(org.apache.http.HttpRequest)
+    299:307:public static java.io.InputStream getUngzippedContent(org.apache.http.HttpEntity)
+    422:431:public void enableCurlLogging(java.lang.String,int)
+    437:438:public void disableCurlLogging()
+com.mail163.email.net.AndroidHttpClient$LoggingConfiguration:
+    382:385:private AndroidHttpClient$LoggingConfiguration(java.lang.String,int)
+    382:382:synthetic AndroidHttpClient$LoggingConfiguration(java.lang.String,int,com.mail163.email.net.AndroidHttpClient$LoggingConfiguration)
+com.mail163.email.net.BaseParsers
+com.mail163.email.net.HttpConectorThread:
+    public long fileLength
+    83:107:public void httpcontent()
+com.mail163.email.net.PageSaxFeedParser:
+    static final java.lang.String page
+    static final java.lang.String resultcount
+    static final java.lang.String curpage
+    static final java.lang.String totalpage
+    static final java.lang.String iconpath
+    static final java.lang.String ITEM
+    static final java.lang.String id
+    static final java.lang.String name
+    static final java.lang.String path
+    static final java.lang.String url
+    static final java.lang.String skinpath
+com.mail163.email.net.SoftUpdateSaxFeedParser:
+    static final java.lang.String rootX
+    static final java.lang.String serverVersion
+    static final java.lang.String smsmail
+    static final java.lang.String sendmessage
+    static final java.lang.String apkSize
+    static final java.lang.String addAccountCount
+    static final java.lang.String downloadUrl
+    static final java.lang.String updateContent
+com.mail163.email.net.SystemNoticeSaxFeedParser:
+    static final java.lang.String rootX
+    static final java.lang.String control
+    static final java.lang.String version
+    static final java.lang.String email
+    static final java.lang.String message
+com.mail163.email.provider.AttachmentProvider:
+    public static final java.lang.String AUTHORITY
+    private static final java.lang.String FORMAT_RAW
+    private static final java.lang.String FORMAT_THUMBNAIL
+    private static final int MIME_TYPE_COLUMN_MIME_TYPE
+    private static final int MIME_TYPE_COLUMN_FILENAME
+    487:498:public static void deleteAllMailboxAttachmentFiles(android.content.Context,long,long)
+com.mail163.email.provider.AttachmentProvider$AttachmentProviderColumns
+com.mail163.email.provider.EmailContent:
+    public static final java.lang.String AUTHORITY
+    public static final java.lang.String RECORD_ID
+    public static final int ID_PROJECTION_COLUMN
+    private static final java.lang.String ID_SELECTION
+    public static final java.lang.String FIELD_COLUMN_NAME
+    public static final java.lang.String ADD_COLUMN_NAME
+    private static final int NOT_SAVED
+    142:142:public static int update(android.content.Context,android.net.Uri,long,android.content.ContentValues)
+com.mail163.email.provider.EmailContent$Account:
+    public static final java.lang.String TABLE_NAME
+    public static final int FLAGS_NOTIFY_NEW_MAIL
+    public static final int FLAGS_VIBRATE_ALWAYS
+    public static final int FLAGS_DELETE_POLICY_MASK
+    public static final int FLAGS_DELETE_POLICY_SHIFT
+    public static final int FLAGS_INCOMPLETE
+    public static final int FLAGS_SECURITY_HOLD
+    public static final int FLAGS_VIBRATE_WHEN_SILENT
+    public static final int DELETE_POLICY_NEVER
+    public static final int DELETE_POLICY_7DAYS
+    public static final int DELETE_POLICY_ON_DELETE
+    public static final int CHECK_INTERVAL_NEVER
+    public static final int CHECK_INTERVAL_PUSH
+    public static final int CONTENT_ID_COLUMN
+    public static final int CONTENT_DISPLAY_NAME_COLUMN
+    public static final int CONTENT_EMAIL_ADDRESS_COLUMN
+    public static final int CONTENT_SYNC_KEY_COLUMN
+    public static final int CONTENT_SYNC_LOOKBACK_COLUMN
+    public static final int CONTENT_SYNC_INTERVAL_COLUMN
+    public static final int CONTENT_HOST_AUTH_KEY_RECV_COLUMN
+    public static final int CONTENT_HOST_AUTH_KEY_SEND_COLUMN
+    public static final int CONTENT_FLAGS_COLUMN
+    public static final int CONTENT_IS_DEFAULT_COLUMN
+    public static final int CONTENT_COMPATIBILITY_UUID_COLUMN
+    public static final int CONTENT_SENDER_NAME_COLUMN
+    public static final int CONTENT_RINGTONE_URI_COLUMN
+    public static final int CONTENT_PROTOCOL_VERSION_COLUMN
+    public static final int CONTENT_NEW_MESSAGE_COUNT_COLUMN
+    public static final int CONTENT_SECURITY_FLAGS_COLUMN
+    public static final int CONTENT_SECURITY_SYNC_KEY_COLUMN
+    public static final int CONTENT_SIGNATURE_COLUMN
+    public static final int CONTENT_MAILBOX_TYPE_COLUMN
+    public static final java.lang.String MAILBOX_SELECTION
+    public static final java.lang.String UNREAD_COUNT_SELECTION
+    public static final java.lang.String UUID_SELECTION
+    973:983:public void refresh(android.content.Context)
+    1257:1257:public java.lang.String getLocalStoreUri(android.content.Context)
+com.mail163.email.provider.EmailContent$AccountColumns
+com.mail163.email.provider.EmailContent$Attachment:
+    public static final java.lang.String TABLE_NAME
+    public static final int CONTENT_ID_COLUMN
+    public static final int CONTENT_FILENAME_COLUMN
+    public static final int CONTENT_MIME_TYPE_COLUMN
+    public static final int CONTENT_SIZE_COLUMN
+    public static final int CONTENT_CONTENT_ID_COLUMN
+    public static final int CONTENT_CONTENT_URI_COLUMN
+    public static final int CONTENT_MESSAGE_ID_COLUMN
+    public static final int CONTENT_LOCATION_COLUMN
+    public static final int CONTENT_ENCODING_COLUMN
+    public static final int CONTENT_CONTENT_COLUMN
+    public static final int CONTENT_FLAGS_COLUMN
+    public static final int CONTENT_CONTENT_BYTES_COLUMN
+    public static final int FLAG_ICS_ALTERNATIVE_PART
+    1769:1791:public static java.io.File createUniqueFile(java.lang.String)
+    1831:1831:public int describeContents()
+    1836:1853:public void writeToParcel(android.os.Parcel,int)
+com.mail163.email.provider.EmailContent$AttachmentColumns
+com.mail163.email.provider.EmailContent$Body:
+    public static final java.lang.String TABLE_NAME
+    public static final int CONTENT_ID_COLUMN
+    public static final int CONTENT_MESSAGE_KEY_COLUMN
+    public static final int CONTENT_HTML_CONTENT_COLUMN
+    public static final int CONTENT_TEXT_CONTENT_COLUMN
+    public static final int CONTENT_HTML_REPLY_COLUMN
+    public static final int CONTENT_TEXT_REPLY_COLUMN
+    public static final int CONTENT_SOURCE_KEY_COLUMN
+    public static final int CONTENT_INTRO_TEXT_COLUMN
+    public static final int COMMON_PROJECTION_COLUMN_TEXT
+    279:282:public static com.mail163.email.provider.EmailContent$Body restoreBodyWithId(android.content.Context,long)
+    390:390:public boolean update()
+com.mail163.email.provider.EmailContent$BodyColumns
+com.mail163.email.provider.EmailContent$EmailContact:
+    public static final java.lang.String TABLE_NAME
+    public static final int CONTENT_ID_COLUMN
+    public static final int CONTENT_USERNAME_COLUMN
+    public static final int CONTENT_EMAIL_COLUMN
+com.mail163.email.provider.EmailContent$EmailContactColumns
+com.mail163.email.provider.EmailContent$HostAuth:
+    public static final java.lang.String TABLE_NAME
+    public static final int FLAG_SSL
+    public static final int FLAG_TLS
+    public static final int FLAG_AUTHENTICATE
+    public static final int FLAG_TRUST_ALL_CERTIFICATES
+    public static final int CONTENT_ID_COLUMN
+    public static final int CONTENT_PROTOCOL_COLUMN
+    public static final int CONTENT_ADDRESS_COLUMN
+    public static final int CONTENT_PORT_COLUMN
+    public static final int CONTENT_FLAGS_COLUMN
+    public static final int CONTENT_LOGIN_COLUMN
+    public static final int CONTENT_PASSWORD_COLUMN
+    public static final int CONTENT_DOMAIN_COLUMN
+    public static final int CONTENT_ACCOUNT_KEY_COLUMN
+com.mail163.email.provider.EmailContent$HostAuthColumns
+com.mail163.email.provider.EmailContent$Mailbox:
+    public static final java.lang.String TABLE_NAME
+    public static final int CONTENT_ID_COLUMN
+    public static final int CONTENT_DISPLAY_NAME_COLUMN
+    public static final int CONTENT_SERVER_ID_COLUMN
+    public static final int CONTENT_PARENT_SERVER_ID_COLUMN
+    public static final int CONTENT_ACCOUNT_KEY_COLUMN
+    public static final int CONTENT_TYPE_COLUMN
+    public static final int CONTENT_DELIMITER_COLUMN
+    public static final int CONTENT_SYNC_KEY_COLUMN
+    public static final int CONTENT_SYNC_LOOKBACK_COLUMN
+    public static final int CONTENT_SYNC_INTERVAL_COLUMN
+    public static final int CONTENT_SYNC_TIME_COLUMN
+    public static final int CONTENT_UNREAD_COUNT_COLUMN
+    public static final int CONTENT_FLAG_VISIBLE_COLUMN
+    public static final int CONTENT_FLAGS_COLUMN
+    public static final int CONTENT_VISIBLE_LIMIT_COLUMN
+    public static final int CONTENT_SYNC_STATUS_COLUMN
+    public static final long NO_MAILBOX
+    public static final int CHECK_INTERVAL_NEVER
+    public static final int CHECK_INTERVAL_PUSH
+    public static final int CHECK_INTERVAL_PING
+    public static final int CHECK_INTERVAL_PUSH_HOLD
+    private static final java.lang.String WHERE_TYPE_AND_ACCOUNT_KEY
+    public static final int TYPE_INBOX
+    public static final int TYPE_MAIL
+    public static final int TYPE_PARENT
+    public static final int TYPE_DRAFTS
+    public static final int TYPE_OUTBOX
+    public static final int TYPE_SENT
+    public static final int TYPE_TRASH
+    public static final int TYPE_JUNK
+    public static final int TYPE_NEWBOX
+    public static final int TYPE_NOT_EMAIL
+    public static final int TYPE_CALENDAR
+    public static final int TYPE_CONTACTS
+    public static final int TYPE_TASKS
+    public static final int TYPE_EAS_ACCOUNT_MAILBOX
+    public static final int FLAG_HAS_CHILDREN
+    public static final int FLAG_CHILDREN_VISIBLE
+    public static final int FLAG_CANT_PUSH
+    public static final long QUERY_ALL_INBOXES
+    public static final long QUERY_ALL_UNREAD
+    public static final long QUERY_ALL_FAVORITES
+    public static final long QUERY_ALL_DRAFTS
+    public static final long QUERY_ALL_OUTBOX
+    public static final long QUERY_ALL_SEARCH_INBOX
+    2132:2136:public static com.mail163.email.provider.EmailContent$Mailbox restoreMailboxOfType(android.content.Context,long,int)
+com.mail163.email.provider.EmailContent$MailboxColumns
+com.mail163.email.provider.EmailContent$Message:
+    public static final java.lang.String TABLE_NAME
+    public static final java.lang.String UPDATED_TABLE_NAME
+    public static final java.lang.String DELETED_TABLE_NAME
+    public static final java.lang.String KEY_TIMESTAMP_DESC
+    public static final int CONTENT_ID_COLUMN
+    public static final int CONTENT_DISPLAY_NAME_COLUMN
+    public static final int CONTENT_TIMESTAMP_COLUMN
+    public static final int CONTENT_SUBJECT_COLUMN
+    public static final int CONTENT_FLAG_READ_COLUMN
+    public static final int CONTENT_FLAG_LOADED_COLUMN
+    public static final int CONTENT_FLAG_FAVORITE_COLUMN
+    public static final int CONTENT_FLAG_ATTACHMENT_COLUMN
+    public static final int CONTENT_FLAGS_COLUMN
+    public static final int CONTENT_SERVER_ID_COLUMN
+    public static final int CONTENT_CLIENT_ID_COLUMN
+    public static final int CONTENT_MESSAGE_ID_COLUMN
+    public static final int CONTENT_MAILBOX_KEY_COLUMN
+    public static final int CONTENT_ACCOUNT_KEY_COLUMN
+    public static final int CONTENT_FROM_LIST_COLUMN
+    public static final int CONTENT_TO_LIST_COLUMN
+    public static final int CONTENT_CC_LIST_COLUMN
+    public static final int CONTENT_BCC_LIST_COLUMN
+    public static final int CONTENT_REPLY_TO_COLUMN
+    public static final int CONTENT_SERVER_TIMESTAMP_COLUMN
+    public static final int CONTENT_MEETING_INFO_COLUMN
+    public static final int CONTENT_SIZE
+    public static final int CONTENT_PRIORITY
+    public static final int LIST_ID_COLUMN
+    public static final int LIST_DISPLAY_NAME_COLUMN
+    public static final int LIST_TIMESTAMP_COLUMN
+    public static final int LIST_SUBJECT_COLUMN
+    public static final int LIST_READ_COLUMN
+    public static final int LIST_LOADED_COLUMN
+    public static final int LIST_FAVORITE_COLUMN
+    public static final int LIST_ATTACHMENT_COLUMN
+    public static final int LIST_FLAGS_COLUMN
+    public static final int LIST_MAILBOX_KEY_COLUMN
+    public static final int LIST_ACCOUNT_KEY_COLUMN
+    public static final int LIST_SERVER_ID_COLUMN
+    public static final int ID_COLUMNS_ID_COLUMN
+    public static final int ID_COLUMNS_SYNC_SERVER_ID
+    public static final int ID_MAILBOX_COLUMN_ID
+    public static final int ID_MAILBOX_COLUMN_MAILBOX_KEY
+    public static final int UNREAD
+    public static final int READ
+    public static final int FLAG_LOADED_UNLOADED
+    public static final int FLAG_LOADED_COMPLETE
+    public static final int FLAG_LOADED_PARTIAL
+    public static final int FLAG_LOADED_DELETED
+    public static final int FLAG_TYPE_ORIGINAL
+    public static final int FLAG_TYPE_REPLY
+    public static final int FLAG_TYPE_FORWARD
+    public static final int FLAG_TYPE_MASK
+    public static final int FLAG_INCOMING_MEETING_INVITE
+    public static final int FLAG_INCOMING_MEETING_CANCEL
+    public static final int FLAG_INCOMING_MEETING_MASK
+    public static final int FLAG_OUTGOING_MEETING_INVITE
+    public static final int FLAG_OUTGOING_MEETING_CANCEL
+    public static final int FLAG_OUTGOING_MEETING_ACCEPT
+    public static final int FLAG_OUTGOING_MEETING_DECLINE
+    public static final int FLAG_OUTGOING_MEETING_TENTATIVE
+    public static final int FLAG_OUTGOING_MEETING_MASK
+    public static final int FLAG_OUTGOING_MEETING_REQUEST_MASK
+    695:695:public boolean update()
+com.mail163.email.provider.EmailContent$MessageColumns
+com.mail163.email.provider.EmailContent$SyncColumns
+com.mail163.email.provider.EmailProvider:
+    private static final java.lang.String TAG
+    protected static final java.lang.String DATABASE_NAME
+    protected static final java.lang.String BODY_DATABASE_NAME
+    private static final int ORPHANS_ID
+    private static final int ORPHANS_MAILBOX_KEY
+    private static final java.lang.String WHERE_ID
+    public static final int DATABASE_VERSION
+    public static final int BODY_DATABASE_VERSION
+    public static final java.lang.String EMAIL_AUTHORITY
+    private static final int ACCOUNT_BASE
+    private static final int ACCOUNT
+    private static final int ACCOUNT_MAILBOXES
+    private static final int ACCOUNT_ID
+    private static final int ACCOUNT_ID_ADD_TO_FIELD
+    private static final int MAILBOX_BASE
+    private static final int MAILBOX
+    private static final int MAILBOX_MESSAGES
+    private static final int MAILBOX_ID
+    private static final int MAILBOX_ID_ADD_TO_FIELD
+    private static final int MESSAGE_BASE
+    private static final int MESSAGE
+    private static final int MESSAGE_ID
+    private static final int SYNCED_MESSAGE_ID
+    private static final int ATTACHMENT_BASE
+    private static final int ATTACHMENT
+    private static final int ATTACHMENT_CONTENT
+    private static final int ATTACHMENT_ID
+    private static final int ATTACHMENTS_MESSAGE_ID
+    private static final int HOSTAUTH_BASE
+    private static final int HOSTAUTH
+    private static final int HOSTAUTH_ID
+    private static final int UPDATED_MESSAGE_BASE
+    private static final int UPDATED_MESSAGE
+    private static final int UPDATED_MESSAGE_ID
+    private static final int DELETED_MESSAGE_BASE
+    private static final int DELETED_MESSAGE
+    private static final int DELETED_MESSAGE_ID
+    private static final int DELETED_MESSAGE_MAILBOX
+    private static final int LAST_EMAIL_PROVIDER_DB_BASE
+    private static final int BODY_BASE
+    private static final int BODY
+    private static final int BODY_ID
+    private static final int BODY_MESSAGE_ID
+    private static final int BODY_HTML
+    private static final int BODY_TEXT
+    private static final int EMAIL_CONTACT_BASE
+    private static final int EMAIL_CONTACT
+    private static final int EMAIL_CONTACT_ID
+    private static final int BASE_SHIFT
+    private static final java.lang.String UPDATED_MESSAGE_INSERT
+    private static final java.lang.String UPDATED_MESSAGE_DELETE
+    private static final java.lang.String DELETED_MESSAGE_INSERT
+    private static final java.lang.String DELETE_ORPHAN_BODIES
+    private static final java.lang.String DELETE_BODY
+    private static final java.lang.String ID_EQUALS
+    private static final java.lang.String TRIGGER_MAILBOX_DELETE
+    623:624:static android.database.sqlite.SQLiteDatabase getReadableDatabase(android.content.Context)
+com.mail163.email.provider.SearchSuggestionSampleProvider:
+    public static final java.lang.String AUTHORITY
+    public static final int MODE
+com.mail163.email.receiver.SMSReceiver:
+    public static final java.lang.String TAG
+    private static final java.lang.String DIVIDE
+    private static final java.lang.String CLRHEAD
+    private static final java.lang.String CLRBODY
+    private static final java.lang.String mACTION
+com.mail163.email.service.EmailBroadcastProcessorService:
+    106:111:private void setComponentEnabled(java.lang.Class,boolean)
+com.mail163.email.service.EmailServiceConstants
+com.mail163.email.service.EmailServiceProxy
+com.mail163.email.service.EmailServiceProxy$1
+com.mail163.email.service.EmailServiceProxy$10
+com.mail163.email.service.EmailServiceProxy$2
+com.mail163.email.service.EmailServiceProxy$3
+com.mail163.email.service.EmailServiceProxy$4
+com.mail163.email.service.EmailServiceProxy$5
+com.mail163.email.service.EmailServiceProxy$6
+com.mail163.email.service.EmailServiceProxy$7
+com.mail163.email.service.EmailServiceProxy$8
+com.mail163.email.service.EmailServiceProxy$9
+com.mail163.email.service.EmailServiceProxy$EmailServiceConnection
+com.mail163.email.service.EmailServiceProxy$EmailServiceConnection$1
+com.mail163.email.service.EmailServiceStatus
+com.mail163.email.service.IEmailService:
+    public abstract int validate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,boolean,boolean)
+    public abstract void stopSync(long)
+    public abstract void loadMore(long)
+    public abstract void loadAttachment(long,java.lang.String,java.lang.String)
+    public abstract void updateFolderList(long)
+    public abstract boolean createFolder(long,java.lang.String)
+    public abstract boolean deleteFolder(long,java.lang.String)
+    public abstract boolean renameFolder(long,java.lang.String,java.lang.String)
+    public abstract void setCallback(com.mail163.email.service.IEmailServiceCallback)
+    public abstract void setLogging(int)
+    public abstract void hostChanged(long)
+    public abstract android.os.Bundle autoDiscover(java.lang.String,java.lang.String)
+com.mail163.email.service.IEmailService$Stub
+com.mail163.email.service.IEmailService$Stub$Proxy
+com.mail163.email.service.IEmailServiceCallback$Stub:
+    private static final java.lang.String DESCRIPTOR
+    static final int TRANSACTION_syncMailboxListStatus
+    static final int TRANSACTION_syncMailboxStatus
+    static final int TRANSACTION_loadAttachmentStatus
+    static final int TRANSACTION_sendMessageStatus
+    23:30:public static com.mail163.email.service.IEmailServiceCallback asInterface(android.os.IBinder)
+com.mail163.email.service.IEmailServiceCallback$Stub$Proxy
+com.mail163.email.service.MailService:
+    private static final boolean DEBUG_FORCE_QUICK_REFRESH
+    private static final java.lang.String LOG_TAG
+    public static final int NOTIFICATION_ID_NEW_MESSAGES
+    public static final int NOTIFICATION_ID_SECURITY_NEEDED
+    public static final int NOTIFICATION_ID_EXCHANGE_CALENDAR_ADDED
+    private static final java.lang.String ACTION_CHECK_MAIL
+    private static final java.lang.String ACTION_RESCHEDULE
+    private static final java.lang.String ACTION_CANCEL
+    private static final java.lang.String ACTION_NOTIFY_MAIL
+    private static final java.lang.String EXTRA_CHECK_ACCOUNT
+    private static final java.lang.String EXTRA_ACCOUNT_INFO
+    private static final java.lang.String EXTRA_DEBUG_WATCHDOG
+    private static final java.lang.String EXTRA_CLR_EMAIL
+    private static final int WATCHDOG_DELAY
+    148:152:public static void actionNotifyNewMessages(android.content.Context,long)
+com.mail163.email.service.MailService$StoreAndStreamTask:
+    private static final int STATE_FINISH
+    private static final int Stream_TASK
+com.mail163.email.service.MailService$StoreMessageHandler:
+    private static final int MSG_STORE_PROGRESS
+com.mail163.email.service.MailService$StoreSizeCheckTask:
+    private static final int STATE_FINISH
+    private static final int MOBILE_TASK
+    private static final int SDCARD_TASK
+com.mail163.email.service.MusicService:
+    93:97:public void onCompletion()
+com.mail163.email.service.UpdateService:
+    private static final java.lang.String tag
+com.mail163.email.service.UpdateService$UpdateListHandler:
+    private static final int DOWNLOAD_COMPLETED
+    private static final int DOWNLOAD_FAILD
+com.mail163.email.util.Configs
+com.mail163.email.util.ContactsUtils:
+    29:29:public ContactsUtils()
+    156:191:public static void addContacts(android.content.Context)
+    195:222:public static void addContactsTwo(android.content.Context,java.lang.String,java.lang.String)
+com.mail163.email.util.FileUtils:
+    public static final java.lang.String TAG
+    30:30:public FileUtils()
+    44:54:public static int readFile(java.lang.String,byte[],android.content.Context)
+    66:76:public static void writeFile(java.lang.String,int,byte[],android.content.Context)
+    183:192:public static void readRawFile(int,byte[],android.content.Context)
+    196:260:public static java.io.File getFileData(android.content.Context,java.lang.String)
+com.mail163.email.util.PhoneUtil:
+    9:9:public PhoneUtil()
+    35:38:public static java.lang.String getMdn(android.content.Context)
+    48:52:public static java.lang.String getEsn(android.content.Context)
+    63:67:public static java.lang.String getMobileNumber(android.content.Context)
+    70:71:public static java.lang.String getSdkVersion()
+    77:79:public static int getPhoneType(android.content.Context)
+    86:88:public static java.lang.String getRom()
+    97:112:public static java.lang.String IMSIType(android.content.Context)
+com.mail163.email.util.Regex:
+    10:10:public Regex()
+    168:181:public static final java.lang.String concatGroups(java.util.regex.Matcher)
+    195:205:public static final java.lang.String digitsAndPlusOnly(java.util.regex.Matcher)
+com.mail163.email.util.Utiles:
+    private static final java.lang.String NET_TYPE_WIFI
+    58:58:public Utiles()
+    194:212:public static void createSoftUpdateVersionDialog(android.content.Context)
+    256:268:public static boolean isWifi(android.content.Context)
+    599:600:public static int px2dip(android.content.Context,float)
+com.mail163.email.util.Utiles$1
+com.mail163.email.util.Utiles$2
+com.mail163.email.util.ZipFileUtils:
+    private static final int BUFFER
+    22:24:private ZipFileUtils()
+    128:154:public static void upZipFile(java.io.File,java.lang.String)
+com.mail163.email.view.MessageScrollView:
+    27:28:public MessageScrollView(android.content.Context)
+    48:71:private void init()
+    77:81:public void getView()
+    99:101:public void setOnScrollListener(com.mail163.email.view.MessageScrollView$OnScrollListener)
+    17:17:static synthetic com.mail163.email.view.MessageScrollView$OnScrollListener access$0(com.mail163.email.view.MessageScrollView)
+com.mail163.email.view.MessageScrollView$1
+com.mail163.email.view.MessageScrollView$OnScrollListener:
+    public abstract void onHideBottomBar()
+    public abstract void onShowBottomBar()
+    public abstract void onScroll()
+com.mobclick.android.Gender
+com.mobclick.android.MobclickAgent:
+    private static final int e
+    private static final int f
+    private static final int g
+    private static final int h
+    private static final java.lang.String l
+    private static final java.lang.String m
+    private static final java.lang.String n
+    private static final java.lang.String o
+    private static final java.lang.String p
+    private static final java.lang.String q
+    private static final java.lang.String r
+    private static final java.lang.String s
+    private static final java.lang.String t
+    private static final java.lang.String u
+    private static final java.lang.String v
+    private static final java.lang.String w
+    private static final java.lang.String x
+    private static final java.lang.String y
+    private static final java.lang.String z
+    private static final java.lang.String A
+    private static final java.lang.String B
+    private static final java.lang.String C
+    private static final java.lang.String D
+    private static final java.lang.String E
+    private static final java.lang.String F
+    private static final java.lang.String G
+    private static final java.lang.String H
+    private static final java.lang.String I
+    private static final java.lang.String J
+    private static final java.lang.String K
+    private static final java.lang.String L
+    private static final java.lang.String M
+    private static final java.lang.String N
+    private static final java.lang.String O
+    private static final java.lang.String P
+    private static final java.lang.String Q
+    private static final java.lang.String R
+    private static final java.lang.String S
+    public static org.json.JSONObject getUpdateInfo()
+    public static void setAutoLocation(boolean)
+    public static void setUpdateOnlyWifi(boolean)
+    public static void setUpdateListener(com.mobclick.android.UmengUpdateListener)
+    public static void setSessionContinueMillis(long)
+    public static void setOnlineConfigureListener(com.mobclick.android.UmengOnlineConfigureListener)
+    public static void openActivityDurationTrack(boolean)
+    public static boolean isDownloadingAPK()
+    public static void setDebugMode(boolean)
+    public static void setDefaultReportPolicy(android.content.Context,int)
+    public static void onError(android.content.Context)
+    public static void reportError(android.content.Context,java.lang.String)
+    public static void flush(android.content.Context)
+    public static void update(android.content.Context,java.lang.String)
+    public static void update(android.content.Context)
+    public static void onEvent(android.content.Context,java.lang.String)
+    public static void onEvent(android.content.Context,java.lang.String,int)
+    public static void onEvent(android.content.Context,java.lang.String,java.lang.String)
+    public static void onEvent(android.content.Context,java.lang.String,java.lang.String,int)
+    public static void enterPage(android.content.Context,java.lang.String)
+    private synchronized void a(android.content.Context,java.lang.String)
+    private synchronized void e(android.content.Context)
+    private void f(android.content.Context)
+    private org.json.JSONArray a(org.json.JSONObject,org.json.JSONArray)
+    public static void setOpenGLContext(javax.microedition.khronos.opengles.GL10)
+    public static java.lang.String getConfigParams(android.content.Context,java.lang.String)
+    private static java.lang.String p(android.content.Context)
+    private static void a(android.content.Context,int)
+    public static void updateOnlineConfig(android.content.Context,java.lang.String)
+    public static void updateOnlineConfig(android.content.Context)
+    private synchronized void e(android.content.Context,java.lang.String)
+    public static void setGender(android.content.Context,com.mobclick.android.Gender)
+    public static void setAge(android.content.Context,int)
+    public static void setUserID(android.content.Context,java.lang.String,java.lang.String)
+    public static void update(android.content.Context,long)
+    static synthetic android.content.SharedPreferences b(android.content.Context)
+com.mobclick.android.ReportPolicy
+com.mobclick.android.UmengConstants:
+    public static final java.lang.String OS
+    public static final java.lang.String SDK_TYPE
+    public static final java.lang.String SDK_VERSION
+    public static final int DEFAULT_TIMEZONE
+    public static final java.lang.String LOG_TAG
+    public static final java.lang.String CONFIG_URL
+    public static final java.lang.String CONFIG_URL_BACK
+    public static final java.lang.String FEEDBACK_BASE_URL
+    public static final java.lang.String FEEDBACK_UER_REPLY_URL
+    public static final java.lang.String FEEDBACK_Dev_Reply_URL
+    public static final java.lang.String FEEDBACK_NewFeedback_URL
+    public static final java.lang.String FeedbackPreName
+    public static final java.lang.String PreName_Trivial
+    public static final java.lang.String TrivialPreKey_newreplyIds
+    public static final java.lang.String TrivialPreKey_MaxReplyID
+    public static final java.lang.String TrivialPreKey_Email
+    public static final java.lang.String TrivialPreKey_AgeGroup
+    public static final java.lang.String TrivialPreKey_Sex
+    public static final java.lang.String PreName_maxReplyIdOfFb
+    static final java.lang.String a
+    static final java.lang.String b
+    static final java.lang.String c
+    static final java.lang.String d
+    public static final java.lang.String AtomKey_Content
+    public static final java.lang.String AtomKey_Thread_Title
+    public static final java.lang.String AtomKey_Date
+    public static final java.lang.String AtomKey_User_ID
+    public static final java.lang.String AtomKey_FeedbackID
+    public static final java.lang.String AtomKey_ReplyId
+    public static final java.lang.String AtomKey_AgeGroup
+    public static final java.lang.String AtomKey_Sex
+    public static final java.lang.String AtomKey_Email
+    public static final java.lang.String AtomKey_AppKey
+    public static final java.lang.String AtomKey_Index
+    public static final java.lang.String AtomKey_Lat
+    public static final java.lang.String AtomKey_Lng
+    public static final java.lang.String AtomKey_Message
+    public static final java.lang.String AtomKey_SDK_Version
+    public static final java.lang.String AtomKey_AppVersion
+    public static final java.lang.String AtomKey_OSVersion
+    public static final java.lang.String AtomKey_DeviceModel
+    public static final java.lang.String AtomKeyReplyId
+    public static final java.lang.String AtomKey_State
+    public static final java.lang.String Atom_State_Error
+    public static final java.lang.String Atom_State_OK
+    public static final java.lang.String AtomKey_Type
+    public static final java.lang.String Atom_Type_UserReply
+    public static final java.lang.String Atom_Type_NewFeedback
+    public static final java.lang.String Atom_Type_DevReply
+    public static final java.lang.String Atom_Type_Responce
+    public static final java.lang.String FailState
+    public static final java.lang.String TempState
+    public static final java.lang.String OKState
+    public static final java.lang.String PostFeedbackBroadcast
+    public static final java.lang.String PostFeedbackBroadcast_Fail
+    public static final java.lang.String PostFeedbackBroadcast_Succeed
+    public static final java.lang.String RetrieveReplyBroadcastAction
+    public static final int RetrieveReplyBroadcast_Fail
+    public static final int RetrieveReplyBroadcast_HasReply
+    public static final int RetrieveReplyBroadcast_NoReply
+    public static final java.lang.String HasNewReplyBroadcast
+    public static final int HasNewReplyBroadcast_Yes
+    public static final int HasNewReplyBroadcast_No
+    public static final java.lang.String PostFeedbackBroadcastAction
+    public static final java.lang.String NewReplyNotifyType
+    public static final int NotificationBanner
+    public static final int NotificationPopout
+    public static final java.lang.String NewReplyContent
+    public static final java.lang.String Online_Config_Local_Policy
+    public static final java.lang.String Online_Config_Net_Policy
+    public static final java.lang.String Online_Config_Last_Modify
+    public static final java.lang.String KEY_LAST_UPDATE_TIME
+    public static final java.lang.String KEY_UPDATE_INTERNAL
+    public UmengConstants()
+com.mobclick.android.UpdateStatus:
+    public UpdateStatus()
+com.mobclick.android.a:
+    private static final int b
+    private static final java.lang.String c
+    public static void a(org.apache.http.HttpRequest)
+    public static java.io.InputStream a(org.apache.http.HttpEntity)
+    public static org.apache.http.entity.AbstractHttpEntity a(byte[],android.content.ContentResolver)
+    public static long a(android.content.ContentResolver)
+    public void a(java.lang.String,int)
+    public void b()
+com.mobclick.android.e:
+    private e(java.lang.String,int)
+    synthetic e(java.lang.String,int,com.mobclick.android.e)
+com.mobclick.android.f:
+    private static final int o
+    public static final int a
+    public boolean a()
+    public static boolean b()
+    public void a(java.lang.String)
+    public void b(java.lang.String)
+    public void a(int)
+    public void a(boolean)
+com.mobclick.android.j:
+    public j()
+com.mobclick.android.n
+com.mobclick.android.o
+com.mobclick.android.p
+com.mobclick.android.q
+com.mobclick.android.r:
+    r(android.content.Context,java.lang.String,java.lang.String,java.lang.String,int,int)
+    r(android.content.Context,java.lang.String,int)
+com.mobclick.android.t:
+    public t()
+    public static void a(android.content.Context)
+    public static java.lang.String[] a(javax.microedition.khronos.opengles.GL10)
+    public static int a(java.util.Date,java.util.Date)
+    public static java.util.Date e(android.content.Context)
+    public static void a(android.content.Context,java.util.Date)
+    public static java.lang.String a(org.json.JSONObject)
+    public static java.lang.String b(org.json.JSONObject)
+com.mobclick.android.u:
+    public u()
+com.tencent.mm.algorithm.Base64
+com.tencent.mm.algorithm.LRUMap
+com.tencent.mm.algorithm.LRUMap$1
+com.tencent.mm.algorithm.LRUMap$OnClearListener
+com.tencent.mm.algorithm.LRUMap$PreRemoveCallback
+com.tencent.mm.algorithm.LRUMap$TimeVal
+com.tencent.mm.algorithm.MD5:
+    private MD5()
+    public static final byte[] getRawDigest(byte[])
+    public static final java.lang.String getMD5(java.io.FileInputStream,int,int,int)
+    public static final java.lang.String getMD5(java.io.FileInputStream,int)
+    public static java.lang.String getMD5(java.lang.String)
+    public static java.lang.String getMD5(java.io.File)
+    public static java.lang.String getMD5(java.io.File,int)
+    public static java.lang.String getMD5(java.lang.String,int,int)
+    public static java.lang.String getMD5(java.io.File,int,int)
+com.tencent.mm.algorithm.TypeTransform:
+    private TypeTransform()
+    private static byte[] a(byte[])
+    public static byte[] longToByteArrayLH(long)
+    public static byte[] intToByteArrayHL(int)
+    public static byte[] longToByteArrayHL(long)
+    public static int byteArrayLHToInt(byte[])
+    public static int byteArrayLHToInt(byte[],int)
+    public static long byteArrayLHToLong(byte[])
+    public static long byteArrayLHToLong(byte[],int)
+    public static int byteArrayHLToInt(byte[])
+    public static int byteArrayHLToInt(byte[],int)
+    public static long byteArrayHLToLong(byte[],int)
+    public static long byteArrayHLToLong(byte[])
+com.tencent.mm.algorithm.UIN
+com.tencent.mm.sdk.Build
+com.tencent.mm.sdk.BuildConfig
+com.tencent.mm.sdk.ConstantsUI
+com.tencent.mm.sdk.ConstantsUI$Contact
+com.tencent.mm.sdk.MMAppMgr
+com.tencent.mm.sdk.MMSharedPreferences
+com.tencent.mm.sdk.MMSharedPreferences$REditor
+com.tencent.mm.sdk.channel.ConstantsMMessage
+com.tencent.mm.sdk.channel.MMessage:
+    public MMessage()
+    public static void send(android.content.Context,java.lang.String,java.lang.String)
+com.tencent.mm.sdk.channel.MMessage$Receiver:
+    public static void registerCallBack(java.lang.String,com.tencent.mm.sdk.channel.MMessage$CallBack)
+    public static void unregisterCallBack(java.lang.String)
+com.tencent.mm.sdk.channel.MMessageAct:
+    public MMessageAct()
+    public static boolean send(android.content.Context,java.lang.String,java.lang.String)
+    public static boolean send(android.content.Context,java.lang.String,java.lang.String,android.os.Bundle)
+    public static boolean sendToWx(android.content.Context,java.lang.String)
+com.tencent.mm.sdk.channel.MMessageUtil:
+    private MMessageUtil()
+com.tencent.mm.sdk.channel.package-info
+com.tencent.mm.sdk.contact.RContact
+com.tencent.mm.sdk.contact.RContactAvatar
+com.tencent.mm.sdk.contact.RContactDB
+com.tencent.mm.sdk.contact.RContactStorage
+com.tencent.mm.sdk.contact.package-info
+com.tencent.mm.sdk.conversation.RConversation
+com.tencent.mm.sdk.conversation.RConversationDB
+com.tencent.mm.sdk.conversation.RConversationStorage
+com.tencent.mm.sdk.conversation.package-info
+com.tencent.mm.sdk.message.RMsgInfo
+com.tencent.mm.sdk.message.RMsgInfoDB
+com.tencent.mm.sdk.message.RMsgInfoStorage
+com.tencent.mm.sdk.openapi.BaseResp:
+    public abstract int getType()
+    public void toBundle(android.os.Bundle)
+    abstract boolean checkArgs()
+com.tencent.mm.sdk.openapi.BaseResp$ErrCode
+com.tencent.mm.sdk.openapi.ConstantsAPI
+com.tencent.mm.sdk.openapi.GetMessageFromWX:
+    private GetMessageFromWX()
+com.tencent.mm.sdk.openapi.GetMessageFromWX$Req:
+    public java.lang.String username
+com.tencent.mm.sdk.openapi.GetMessageFromWX$Resp
+com.tencent.mm.sdk.openapi.IWXAPI:
+    public abstract void unregisterApp()
+    public abstract boolean isWXAppInstalled()
+    public abstract boolean isWXAppSupportAPI()
+    public abstract int getWXAppSupportAPI()
+    public abstract boolean openWXApp()
+    public abstract boolean sendResp(com.tencent.mm.sdk.openapi.BaseResp)
+com.tencent.mm.sdk.openapi.SendAuth:
+    private SendAuth()
+com.tencent.mm.sdk.openapi.SendAuth$Req
+com.tencent.mm.sdk.openapi.SendAuth$Resp:
+    public java.lang.String resultUrl
+    public int getType()
+    public void toBundle(android.os.Bundle)
+    final boolean checkArgs()
+com.tencent.mm.sdk.openapi.SendMessageToWX:
+    private SendMessageToWX()
+com.tencent.mm.sdk.openapi.SendMessageToWX$Req:
+    public static final int WXSceneSession
+    public static final int WXSceneTimeline
+    public SendMessageToWX$Req(android.os.Bundle)
+com.tencent.mm.sdk.openapi.SendMessageToWX$Resp:
+    public int getType()
+    public void toBundle(android.os.Bundle)
+    final boolean checkArgs()
+com.tencent.mm.sdk.openapi.ShowMessageFromWX:
+    private ShowMessageFromWX()
+com.tencent.mm.sdk.openapi.ShowMessageFromWX$Resp
+com.tencent.mm.sdk.openapi.WXAPIFactory:
+    public static com.tencent.mm.sdk.openapi.IWXAPI createWXAPI(android.content.Context,java.lang.String)
+com.tencent.mm.sdk.openapi.WXApiImplV10:
+    protected WXApiImplV10(android.content.Context,java.lang.String)
+    public final void unregisterApp()
+    public final boolean isWXAppInstalled()
+    public final boolean isWXAppSupportAPI()
+    public final int getWXAppSupportAPI()
+    public final boolean openWXApp()
+    public final boolean sendResp(com.tencent.mm.sdk.openapi.BaseResp)
+com.tencent.mm.sdk.openapi.WXAppLaunchData
+com.tencent.mm.sdk.openapi.WXAppLaunchData$Builder
+com.tencent.mm.sdk.openapi.WXMediaMessage$Builder:
+    public static final java.lang.String KEY_IDENTIFIER
+    public WXMediaMessage$Builder()
+com.tencent.mm.sdk.openapi.WXMediaMessage$IMediaObject:
+    public static final int TYPE_UNKNOWN
+    public static final int TYPE_TEXT
+    public static final int TYPE_IMAGE
+    public static final int TYPE_MUSIC
+    public static final int TYPE_VIDEO
+    public static final int TYPE_URL
+    public static final int TYPE_FILE
+    public static final int TYPE_APPDATA
+    public static final int TYPE_EMOJI
+com.tencent.mm.sdk.openapi.package-info
+com.tencent.mm.sdk.package-info
+com.tencent.mm.sdk.platformtools.AnimationHelperImpl21below
+com.tencent.mm.sdk.platformtools.AnimationHelperImpl22
+com.tencent.mm.sdk.platformtools.BackwardSupportUtil
+com.tencent.mm.sdk.platformtools.BackwardSupportUtil$AnimationHelper
+com.tencent.mm.sdk.platformtools.BackwardSupportUtil$AnimationHelper$IHelper
+com.tencent.mm.sdk.platformtools.BackwardSupportUtil$BitmapFactory
+com.tencent.mm.sdk.platformtools.BackwardSupportUtil$ExifHelper
+com.tencent.mm.sdk.platformtools.BackwardSupportUtil$SmoothScrollFactory
+com.tencent.mm.sdk.platformtools.BackwardSupportUtil$SmoothScrollFactory$IScroll
+com.tencent.mm.sdk.platformtools.ChannelUtil
+com.tencent.mm.sdk.platformtools.CharSequences
+com.tencent.mm.sdk.platformtools.CharSequences$1
+com.tencent.mm.sdk.platformtools.CharSequences$2
+com.tencent.mm.sdk.platformtools.InetUtil
+com.tencent.mm.sdk.platformtools.KVConfig
+com.tencent.mm.sdk.platformtools.LBSManager:
+    public static final java.lang.String FILTER_GPS
+    public static final float INVALID_LAT
+    public static final float INVALID_LNG
+    public static final int INVALID_ACC
+    public static final int MM_SOURCE_HARDWARE
+    public static final int MM_SOURCE_NET
+    public static final int MM_SOURCE_REPORT_HARWARE
+    public static final int MM_SOURCE_REPORT_NETWORK
+    private android.location.LocationManager ad
+    private android.app.PendingIntent ae
+    private boolean af
+    public LBSManager(android.content.Context,com.tencent.mm.sdk.platformtools.LBSManager$OnLocationGotListener)
+    private boolean b()
+    public void start()
+    public boolean isGpsEnable()
+    public boolean isNetworkPrividerEnable()
+    public void removeGpsUpdate()
+    public void requestGpsUpdate()
+    public void removeListener()
+    static synthetic boolean a(com.tencent.mm.sdk.platformtools.LBSManager)
+com.tencent.mm.sdk.platformtools.LBSManager$1
+com.tencent.mm.sdk.platformtools.LVBuffer
+com.tencent.mm.sdk.platformtools.LocaleUtil
+com.tencent.mm.sdk.platformtools.Log:
+    public static final int LEVEL_VERBOSE
+    public static final int LEVEL_DEBUG
+    public static final int LEVEL_INFO
+    public static final int LEVEL_WARNING
+    public static final int LEVEL_ERROR
+    public static final int LEVEL_FATAL
+    public static final int LEVEL_NONE
+    protected Log()
+    public static void setOutputPath(java.lang.String,java.lang.String,java.lang.String,int)
+    public static void setOutputStream(java.io.InputStream,java.io.OutputStream,java.lang.String,java.lang.String,int)
+    public static void reset()
+    public static void setLevel(int,boolean)
+    public static int getLevel()
+    public static void f(java.lang.String,java.lang.String)
+    public static void w(java.lang.String,java.lang.String)
+    public static varargs void f(java.lang.String,java.lang.String,java.lang.Object[])
+    public static varargs void w(java.lang.String,java.lang.String,java.lang.Object[])
+    public static java.lang.String getSysInfo()
+com.tencent.mm.sdk.platformtools.LogHelper:
+    private LogHelper()
+    public static void initLogHeader(java.io.PrintStream,java.lang.String,java.lang.String,long,int)
+com.tencent.mm.sdk.platformtools.MAlarmHandler
+com.tencent.mm.sdk.platformtools.MAlarmHandler$CallBack
+com.tencent.mm.sdk.platformtools.MAlarmHandler$IBumper
+com.tencent.mm.sdk.platformtools.MMApplicationContext
+com.tencent.mm.sdk.platformtools.MMEntryLock
+com.tencent.mm.sdk.platformtools.MTimerHandler:
+    private static int av
+    public MTimerHandler(com.tencent.mm.sdk.platformtools.MTimerHandler$CallBack,boolean)
+    public MTimerHandler(android.os.Looper,com.tencent.mm.sdk.platformtools.MTimerHandler$CallBack,boolean)
+    private static int d()
+    public void startTimer(long)
+    public boolean stopped()
+com.tencent.mm.sdk.platformtools.NetStatusUtil
+com.tencent.mm.sdk.platformtools.PhoneUtil:
+    public static final java.lang.String CELL_GSM
+    public static final java.lang.String CELL_CDMA
+    private PhoneUtil()
+    public static void getSignalStrength(android.content.Context)
+com.tencent.mm.sdk.platformtools.PhoneUtil$CellInfo:
+    public static final int MAX_CID
+    public static final int MAX_LAC
+com.tencent.mm.sdk.platformtools.PhoneUtil16Impl:
+    public void getSignalStrength(android.content.Context)
+com.tencent.mm.sdk.platformtools.PhoneUtil20Impl:
+    public void getSignalStrength(android.content.Context)
+com.tencent.mm.sdk.platformtools.SensorController:
+    private android.hardware.SensorManager aS
+    private android.hardware.Sensor aW
+    private final boolean aX
+    private boolean aZ
+    public SensorController(android.content.Context)
+    public void setSensorCallBack(com.tencent.mm.sdk.platformtools.SensorController$SensorEventCallBack)
+    public void removeSensorCallBack()
+    public boolean isSensorEnable()
+com.tencent.mm.sdk.platformtools.SmoothScrollToPosition21below
+com.tencent.mm.sdk.platformtools.SmoothScrollToPosition22
+com.tencent.mm.sdk.platformtools.SyncTask
+com.tencent.mm.sdk.platformtools.SyncTask$1
+com.tencent.mm.sdk.platformtools.SystemProperty
+com.tencent.mm.sdk.platformtools.TimeLogger
+com.tencent.mm.sdk.platformtools.TrafficStats
+com.tencent.mm.sdk.platformtools.Util:
+    public static final int MAX_DECODE_PICTURE_SIZE
+    public static final java.lang.String PHOTO_DEFAULT_EXT
+    public static final long MILLSECONDS_OF_SECOND
+    public static final long MILLSECONDS_OF_MINUTE
+    public static final long MILLSECONDS_OF_HOUR
+    public static final long MILLSECONDS_OF_DAY
+    public static final long SECOND_OF_MINUTE
+    public static final long MINUTE_OF_HOUR
+    public static final long MAX_32BIT_VALUE
+    public static final int MIN_ACCOUNT_LENGTH
+    public static final int MAX_ACCOUNT_LENGTH
+    public static final int MIN_PASSWORD_LENGTH
+    public static final int MAX_PASSWORD_LENGTH
+    public static final int BIT_OF_KB
+    public static final int BIT_OF_MB
+    public static final int BYTE_OF_KB
+    public static final int BYTE_OF_MB
+    public static final int MASK_4BIT
+    public static final int MASK_8BIT
+    public static final int MASK_16BIT
+    public static final int MASK_32BIT
+    public static final int BEGIN_TIME
+    public static final int END_TIME
+    public static final int DAY
+    public static final java.lang.String TAIWAN
+    public static final java.lang.String HONGKONG
+    public static final java.lang.String CHINA
+    public static final java.lang.String ENGLISH
+    public static final java.lang.String LANGUAGE_DEFAULT
+    private Util()
+    public static java.lang.String escapeSqlValue(java.lang.String)
+    public static java.lang.String listToString(java.util.List,java.lang.String)
+    public static java.util.List stringsToList(java.lang.String[])
+    public static int getIntRandom(int,int)
+    public static boolean isDayTimeNow()
+    public static boolean isNightTime(int,int,int)
+    public static java.lang.String getTimeZoneOffset()
+    public static java.lang.String getTimeZone()
+    public static java.lang.String getTimeZoneDef()
+    public static java.lang.String formatUnixTime(long)
+    public static boolean isChinese(char)
+    public static boolean isAlpha(char)
+    public static boolean isNum(char)
+    public static boolean isValidQQNum(java.lang.String)
+    public static boolean isValidEmail(java.lang.String)
+    public static byte[] bmpToByteArray(android.graphics.Bitmap,boolean)
+    public static boolean isValidAccount(java.lang.String)
+    public static boolean isValidPassword(java.lang.String)
+    public static android.graphics.BitmapFactory$Options getImageOptions(java.lang.String)
+    public static void saveBitmapToImage(android.graphics.Bitmap,int,android.graphics.Bitmap$CompressFormat,java.lang.String,java.lang.String,boolean)
+    public static void saveBitmapToImage(android.graphics.Bitmap,int,android.graphics.Bitmap$CompressFormat,java.lang.String,boolean)
+    public static android.graphics.Bitmap getRoundedCornerBitmap(android.graphics.Bitmap,boolean,float)
+    public static java.lang.String getSizeKB(long)
+    public static java.lang.String getSizeMB(long)
+    public static java.lang.String dumpArray(java.lang.Object[])
+    public static java.lang.String dumpHex(byte[])
+    public static android.content.Intent getInstallPackIntent(java.lang.String,android.content.Context)
+    public static void installPack(java.lang.String,android.content.Context)
+    public static void shake(android.content.Context,boolean)
+    public static android.media.MediaPlayer playSound(android.content.Context,int,android.media.MediaPlayer$OnCompletionListener)
+    public static void playSound(android.content.Context,int)
+    public static long nowSecond()
+    public static java.lang.String formatSecToMin(int)
+    public static long nowMilliSecond()
+    public static long secondsToNow(long)
+    public static long milliSecondsToNow(long)
+    public static long ticksToNow(long)
+    public static long currentTicks()
+    public static long currentDayInMills()
+    public static long currentWeekInMills()
+    public static long currentMonthInMills()
+    public static long currentYearInMills()
+    public static int getSystemVersion(android.content.Context,int)
+    public static java.lang.String getDeviceId(android.content.Context)
+    public static java.lang.String getLine1Number(android.content.Context)
+    public static boolean isLockScreen(android.content.Context)
+    public static boolean isTopActivity(android.content.Context)
+    public static boolean isServiceRunning(android.content.Context,java.lang.String)
+    public static boolean isProcessRunning(android.content.Context,java.lang.String)
+    public static java.lang.String getTopActivityName(android.content.Context)
+    public static boolean isTopApplication(android.content.Context)
+    public static boolean isIntentAvailable(android.content.Context,android.content.Intent)
+    public static void freeBitmapMap(java.util.Map)
+    public static void selectPicture(android.content.Context,int)
+    public static int nullAsNil(java.lang.Integer)
+    public static long nullAsNil(java.lang.Long)
+    public static boolean nullAsTrue(java.lang.Boolean)
+    public static boolean nullAsFalse(java.lang.Boolean)
+    public static int nullAs(java.lang.Integer,int)
+    public static long nullAs(java.lang.Long,long)
+    public static boolean nullAs(java.lang.Boolean,boolean)
+    public static java.lang.String nullAs(java.lang.String,java.lang.String)
+    public static int nullAsInt(java.lang.Object,int)
+    public static int getInt(java.lang.String,int)
+    public static long getLong(java.lang.String,long)
+    public static int getHex(java.lang.String,int)
+    public static java.util.Map parseXml(java.lang.String,java.lang.String,java.lang.String)
+    private static void a(java.util.Map,java.lang.String,org.w3c.dom.Node,int)
+    public static void transClickToSelect(android.view.View,android.view.View)
+    public static java.lang.String getCutPasswordMD5(java.lang.String)
+    public static java.lang.String getFullPasswordMD5(java.lang.String)
+    public static org.w3c.dom.Element getRootElementFromXML(byte[])
+    public static java.lang.String convertStreamToString(java.io.InputStream)
+    public static java.lang.String encodeHexString(byte[])
+    public static byte[] decodeHexString(java.lang.String)
+    public static int guessHttpSendLength(int)
+    public static int guessHttpRecvLength(int)
+    public static int guessHttpContinueRecvLength(int)
+    public static int guessTcpConnectLength()
+    public static int guessTcpDisconnectLength()
+    public static int guessTcpSendLength(int)
+    public static int guessTcpRecvLength(int)
+    public static int[] splitToIntArray(java.lang.String)
+    public static int UnZipFolder(java.lang.String,java.lang.String)
+    public static java.lang.String getStack()
+    public static boolean checkSDCardFull()
+    public static java.lang.String GetHostIp()
+    public static boolean checkPermission(android.content.Context,java.lang.String)
+    public static boolean jump(android.content.Context,java.lang.String)
+    public static java.lang.String escapeStringForXml(java.lang.String)
+    public static java.lang.String processXml(java.lang.String)
+    public static java.lang.String expandEntities(java.lang.String)
+    private static int a(char[],int,int)
+    public static boolean isImgFile(java.lang.String)
+    public static java.lang.String mapToXml(java.lang.String,java.util.LinkedHashMap)
+    public static java.util.Map parseIni(java.lang.String)
+com.tencent.mm.sdk.platformtools.Util$1
+com.tencent.mm.sdk.platformtools.Util$2
+com.tencent.mm.sdk.platformtools.package-info
+com.tencent.mm.sdk.plugin.IMMPluginAPI
+com.tencent.mm.sdk.plugin.MMPluginAPIImpl
+com.tencent.mm.sdk.plugin.MMPluginMsg
+com.tencent.mm.sdk.plugin.MMPluginMsg$ReceiverHelper
+com.tencent.mm.sdk.plugin.MMPluginOAuth:
+    private final android.content.Context R
+    private android.os.Handler handler
+    public MMPluginOAuth(android.content.Context,com.tencent.mm.sdk.plugin.MMPluginOAuth$IResult)
+    public java.lang.String getAccessToken()
+    public java.lang.String getRequestToken()
+    public void start()
+    public boolean start(android.os.Handler)
+    static synthetic com.tencent.mm.sdk.plugin.MMPluginOAuth$IResult b(com.tencent.mm.sdk.plugin.MMPluginOAuth)
+com.tencent.mm.sdk.plugin.MMPluginOAuth$1
+com.tencent.mm.sdk.plugin.MMPluginOAuth$IResult:
+    public abstract void onSessionTimeOut()
+com.tencent.mm.sdk.plugin.MMPluginOAuth$Receiver:
+    public static void register(java.lang.String,com.tencent.mm.sdk.plugin.MMPluginOAuth)
+com.tencent.mm.sdk.plugin.MMPluginProviderConstants
+com.tencent.mm.sdk.plugin.MMPluginProviderConstants$OAuth
+com.tencent.mm.sdk.plugin.MMPluginProviderConstants$PluginDB
+com.tencent.mm.sdk.plugin.MMPluginProviderConstants$PluginIntent
+com.tencent.mm.sdk.plugin.MMPluginProviderConstants$Resolver
+com.tencent.mm.sdk.plugin.MMPluginProviderConstants$SharedPref
+com.tencent.mm.sdk.plugin.MMPluginUtil
+com.tencent.mm.sdk.plugin.Profile
+com.tencent.mm.sdk.plugin.package-info
+com.tencent.mm.sdk.storage.ContentProviderDB
+com.tencent.mm.sdk.storage.CursorFieldHelper
+com.tencent.mm.sdk.storage.ISQLiteDatabase
+com.tencent.mm.sdk.storage.MAutoDBItem
+com.tencent.mm.sdk.storage.MAutoStorage
+com.tencent.mm.sdk.storage.MDBItem
+com.tencent.mm.sdk.storage.MStorage
+com.tencent.mm.sdk.storage.MStorage$1
+com.tencent.mm.sdk.storage.MStorage$2
+com.tencent.mm.sdk.storage.MStorage$IOnStorageChange
+com.tencent.mm.sdk.storage.MStorage$IOnStorageLoaded
+com.tencent.mm.sdk.storage.MStorageEvent
+com.tencent.mm.sdk.storage.MStorageEvent$1
+com.tencent.mm.sdk.storage.package-info
+org.apache.commons.io.CopyUtils
+org.apache.commons.io.DirectoryWalker
+org.apache.commons.io.DirectoryWalker$CancelException
+org.apache.commons.io.EndianUtils
+org.apache.commons.io.FileCleaner
+org.apache.commons.io.FileCleaningTracker
+org.apache.commons.io.FileCleaningTracker$Reaper
+org.apache.commons.io.FileCleaningTracker$Tracker
+org.apache.commons.io.FileDeleteStrategy
+org.apache.commons.io.FileDeleteStrategy$ForceFileDeleteStrategy
+org.apache.commons.io.FileSystemUtils
+org.apache.commons.io.FileUtils
+org.apache.commons.io.FilenameUtils
+org.apache.commons.io.HexDump
+org.apache.commons.io.IOCase
+org.apache.commons.io.IOExceptionWithCause
+org.apache.commons.io.IOUtils:
+    public static final char DIR_SEPARATOR_UNIX
+    public static final char DIR_SEPARATOR_WINDOWS
+    public static final java.lang.String LINE_SEPARATOR_UNIX
+    public static final java.lang.String LINE_SEPARATOR_WINDOWS
+    private static final int DEFAULT_BUFFER_SIZE
+    127:128:public IOUtils()
+    141:147:public static void closeQuietly(java.io.Reader)
+    159:165:public static void closeQuietly(java.io.Writer)
+    177:183:public static void closeQuietly(java.io.InputStream)
+    195:201:public static void closeQuietly(java.io.OutputStream)
+    235:237:public static byte[] toByteArray(java.io.Reader)
+    259:261:public static byte[] toByteArray(java.io.Reader,java.lang.String)
+    277:277:public static byte[] toByteArray(java.lang.String)
+    296:298:public static char[] toCharArray(java.io.InputStream)
+    320:322:public static char[] toCharArray(java.io.InputStream,java.lang.String)
+    338:340:public static char[] toCharArray(java.io.Reader)
+    358:360:public static java.lang.String toString(java.io.InputStream)
+    381:383:public static java.lang.String toString(java.io.InputStream,java.lang.String)
+    398:400:public static java.lang.String toString(java.io.Reader)
+    414:414:public static java.lang.String toString(byte[])
+    433:436:public static java.lang.String toString(byte[],java.lang.String)
+    456:457:public static java.util.List readLines(java.io.InputStream)
+    478:482:public static java.util.List readLines(java.io.InputStream,java.lang.String)
+    500:507:public static java.util.List readLines(java.io.Reader)
+    540:540:public static org.apache.commons.io.LineIterator lineIterator(java.io.Reader)
+    575:581:public static org.apache.commons.io.LineIterator lineIterator(java.io.InputStream,java.lang.String)
+    594:595:public static java.io.InputStream toInputStream(java.lang.String)
+    612:613:public static java.io.InputStream toInputStream(java.lang.String,java.lang.String)
+    630:633:public static void write(byte[],java.io.OutputStream)
+    649:652:public static void write(byte[],java.io.Writer)
+    673:680:public static void write(byte[],java.io.Writer,java.lang.String)
+    696:699:public static void write(char[],java.io.Writer)
+    717:720:public static void write(char[],java.io.OutputStream)
+    742:749:public static void write(char[],java.io.OutputStream,java.lang.String)
+    763:766:public static void write(java.lang.String,java.io.Writer)
+    783:786:public static void write(java.lang.String,java.io.OutputStream)
+    806:813:public static void write(java.lang.String,java.io.OutputStream,java.lang.String)
+    828:831:public static void write(java.lang.StringBuffer,java.io.Writer)
+    848:851:public static void write(java.lang.StringBuffer,java.io.OutputStream)
+    871:878:public static void write(java.lang.StringBuffer,java.io.OutputStream,java.lang.String)
+    896:909:public static void writeLines(java.util.Collection,java.lang.String,java.io.OutputStream)
+    929:946:public static void writeLines(java.util.Collection,java.lang.String,java.io.OutputStream,java.lang.String)
+    961:974:public static void writeLines(java.util.Collection,java.lang.String,java.io.Writer)
+    1049:1051:public static void copy(java.io.InputStream,java.io.Writer)
+    1074:1080:public static void copy(java.io.InputStream,java.io.Writer,java.lang.String)
+    1104:1108:public static int copy(java.io.Reader,java.io.Writer)
+    1125:1132:public static long copyLarge(java.io.Reader,java.io.Writer)
+    1156:1161:public static void copy(java.io.Reader,java.io.OutputStream)
+    1188:1197:public static void copy(java.io.Reader,java.io.OutputStream,java.lang.String)
+    1217:1234:public static boolean contentEquals(java.io.InputStream,java.io.InputStream)
+    1254:1271:public static boolean contentEquals(java.io.Reader,java.io.Reader)
+org.apache.commons.io.LineIterator
+org.apache.commons.io.comparator.DefaultFileComparator
+org.apache.commons.io.comparator.ExtensionFileComparator
+org.apache.commons.io.comparator.LastModifiedFileComparator
+org.apache.commons.io.comparator.NameFileComparator
+org.apache.commons.io.comparator.PathFileComparator
+org.apache.commons.io.comparator.ReverseComparator
+org.apache.commons.io.comparator.SizeFileComparator
+org.apache.commons.io.filefilter.AbstractFileFilter
+org.apache.commons.io.filefilter.AgeFileFilter
+org.apache.commons.io.filefilter.AndFileFilter
+org.apache.commons.io.filefilter.CanReadFileFilter
+org.apache.commons.io.filefilter.CanWriteFileFilter
+org.apache.commons.io.filefilter.ConditionalFileFilter
+org.apache.commons.io.filefilter.DelegateFileFilter
+org.apache.commons.io.filefilter.DirectoryFileFilter
+org.apache.commons.io.filefilter.EmptyFileFilter
+org.apache.commons.io.filefilter.FalseFileFilter
+org.apache.commons.io.filefilter.FileFileFilter
+org.apache.commons.io.filefilter.FileFilterUtils
+org.apache.commons.io.filefilter.HiddenFileFilter
+org.apache.commons.io.filefilter.IOFileFilter
+org.apache.commons.io.filefilter.NameFileFilter
+org.apache.commons.io.filefilter.NotFileFilter
+org.apache.commons.io.filefilter.OrFileFilter
+org.apache.commons.io.filefilter.PrefixFileFilter
+org.apache.commons.io.filefilter.RegexFileFilter
+org.apache.commons.io.filefilter.SizeFileFilter
+org.apache.commons.io.filefilter.SuffixFileFilter
+org.apache.commons.io.filefilter.TrueFileFilter
+org.apache.commons.io.filefilter.WildcardFileFilter
+org.apache.commons.io.filefilter.WildcardFilter
+org.apache.commons.io.input.AutoCloseInputStream
+org.apache.commons.io.input.CharSequenceReader
+org.apache.commons.io.input.ClassLoaderObjectInputStream
+org.apache.commons.io.input.CloseShieldInputStream
+org.apache.commons.io.input.ClosedInputStream
+org.apache.commons.io.input.CountingInputStream
+org.apache.commons.io.input.DemuxInputStream
+org.apache.commons.io.input.NullInputStream
+org.apache.commons.io.input.NullReader
+org.apache.commons.io.input.ProxyInputStream
+org.apache.commons.io.input.ProxyReader
+org.apache.commons.io.input.SwappedDataInputStream
+org.apache.commons.io.input.TeeInputStream
+org.apache.commons.io.output.ByteArrayOutputStream:
+    192:205:public synchronized int write(java.io.InputStream)
+    213:213:public synchronized int size()
+    232:236:public synchronized void reset()
+    247:257:public synchronized void writeTo(java.io.OutputStream)
+    305:305:public java.lang.String toString(java.lang.String)
+org.apache.commons.io.output.CloseShieldOutputStream
+org.apache.commons.io.output.ClosedOutputStream
+org.apache.commons.io.output.CountingOutputStream
+org.apache.commons.io.output.DeferredFileOutputStream
+org.apache.commons.io.output.DemuxOutputStream
+org.apache.commons.io.output.FileWriterWithEncoding
+org.apache.commons.io.output.LockableFileWriter
+org.apache.commons.io.output.NullOutputStream
+org.apache.commons.io.output.NullWriter
+org.apache.commons.io.output.ProxyOutputStream
+org.apache.commons.io.output.ProxyWriter
+org.apache.commons.io.output.TeeOutputStream
+org.apache.commons.io.output.ThresholdingOutputStream
+org.apache.james.mime4j.AbstractContentHandler
+org.apache.james.mime4j.BodyDescriptor:
+    347:347:public java.lang.String getMimeType()
+    365:365:public java.lang.String getCharset()
+    374:374:public java.util.Map getParameters()
+org.apache.james.mime4j.CloseShieldInputStream:
+    44:44:public java.io.InputStream getUnderlyingStream()
+org.apache.james.mime4j.EOLConvertingInputStream:
+    public static final int CONVERT_CR
+    public static final int CONVERT_LF
+    public static final int CONVERT_BOTH
+org.apache.james.mime4j.Log:
+    33:33:public boolean isErrorEnabled()
+    37:37:public boolean isFatalEnabled()
+    41:41:public boolean isInfoEnabled()
+    45:45:public boolean isTraceEnabled()
+    53:55:public void trace(java.lang.Object)
+    58:60:public void trace(java.lang.Object,java.lang.Throwable)
+    68:70:public void debug(java.lang.Object,java.lang.Throwable)
+    73:75:public void info(java.lang.Object)
+    78:80:public void info(java.lang.Object,java.lang.Throwable)
+    95:96:public void error(java.lang.Object,java.lang.Throwable)
+    99:100:public void fatal(java.lang.Object)
+    103:104:public void fatal(java.lang.Object,java.lang.Throwable)
+org.apache.james.mime4j.LogFactory:
+    23:24:private LogFactory()
+org.apache.james.mime4j.MimeStreamParser:
+    private static final boolean DEBUG_LOG_MESSAGE
+    103:103:public boolean isRaw()
+    117:118:public void setRaw(boolean)
+    133:134:public void stop()
+org.apache.james.mime4j.RootInputStream:
+    67:68:public void truncate()
+org.apache.james.mime4j.SimpleContentHandler
+org.apache.james.mime4j.codec.EncoderUtil:
+    private static final byte BASE64_PAD
+    private static final int MAX_USED_CHARACTERS
+    private static final java.lang.String ENC_WORD_PREFIX
+    private static final java.lang.String ENC_WORD_SUFFIX
+    private static final int ENCODED_WORD_MAX_LENGTH
+    109:110:private EncoderUtil()
+    154:157:public static java.lang.String encodeAddressLocalPart(java.lang.String)
+    173:179:public static java.lang.String encodeHeaderParameter(java.lang.String,java.lang.String)
+    442:452:public static boolean isToken(java.lang.String)
+    479:499:private static boolean isDotAtomText(java.lang.String)
+org.apache.james.mime4j.decoder.ByteQueue:
+    33:36:public ByteQueue(int)
+    58:58:public java.util.Iterator iterator()
+org.apache.james.mime4j.decoder.UnboundedFifoByteBuffer:
+    158:162:public byte get()
+    193:197:private int increment(int)
+    207:211:private int decrement(int)
+    220:220:public java.util.Iterator iterator()
+    192:192:static synthetic int access$0(org.apache.james.mime4j.decoder.UnboundedFifoByteBuffer,int)
+    206:206:static synthetic int access$1(org.apache.james.mime4j.decoder.UnboundedFifoByteBuffer,int)
+org.apache.james.mime4j.decoder.UnboundedFifoByteBuffer$1
+org.apache.james.mime4j.field.AddressListField:
+    40:40:public org.apache.james.mime4j.field.address.AddressList getAddressList()
+    44:44:public org.apache.james.mime4j.field.address.parser.ParseException getParseException()
+org.apache.james.mime4j.field.ContentTransferEncodingField:
+    public static final java.lang.String ENC_7BIT
+    public static final java.lang.String ENC_8BIT
+    public static final java.lang.String ENC_BINARY
+    public static final java.lang.String ENC_QUOTED_PRINTABLE
+    public static final java.lang.String ENC_BASE64
+    65:65:public java.lang.String getEncoding()
+    76:79:public static java.lang.String getEncoding(org.apache.james.mime4j.field.ContentTransferEncodingField)
+org.apache.james.mime4j.field.ContentTypeField:
+    public static final java.lang.String TYPE_MULTIPART_PREFIX
+    public static final java.lang.String TYPE_MULTIPART_DIGEST
+    public static final java.lang.String TYPE_TEXT_PLAIN
+    public static final java.lang.String TYPE_MESSAGE_RFC822
+    public static final java.lang.String PARAM_BOUNDARY
+    public static final java.lang.String PARAM_CHARSET
+    87:87:public org.apache.james.mime4j.field.contenttype.parser.ParseException getParseException()
+    96:96:public java.lang.String getMimeType()
+    114:124:public static java.lang.String getMimeType(org.apache.james.mime4j.field.ContentTypeField,org.apache.james.mime4j.field.ContentTypeField)
+    134:134:public java.lang.String getParameter(java.lang.String)
+    145:145:public java.util.Map getParameters()
+    157:157:public java.lang.String getBoundary()
+    167:167:public java.lang.String getCharset()
+    178:183:public static java.lang.String getCharset(org.apache.james.mime4j.field.ContentTypeField)
+    194:194:public boolean isMimeType(java.lang.String)
+    204:204:public boolean isMultipart()
+org.apache.james.mime4j.field.DateTimeField:
+    46:46:public org.apache.james.mime4j.field.datetime.parser.ParseException getParseException()
+org.apache.james.mime4j.field.Field:
+    public static final java.lang.String SENDER
+    public static final java.lang.String FROM
+    public static final java.lang.String TO
+    public static final java.lang.String CC
+    public static final java.lang.String BCC
+    public static final java.lang.String REPLY_TO
+    public static final java.lang.String RESENT_SENDER
+    public static final java.lang.String RESENT_FROM
+    public static final java.lang.String RESENT_TO
+    public static final java.lang.String RESENT_CC
+    public static final java.lang.String RESENT_BCC
+    public static final java.lang.String DATE
+    public static final java.lang.String RESENT_DATE
+    public static final java.lang.String SUBJECT
+    public static final java.lang.String CONTENT_TYPE
+    public static final java.lang.String CONTENT_TRANSFER_ENCODING
+    private static final java.lang.String FIELD_NAME_PATTERN
+    114:114:public static org.apache.james.mime4j.field.DefaultFieldParser getParser()
+    124:124:public java.lang.String getName()
+    133:133:public java.lang.String getRaw()
+    143:143:public java.lang.String getBody()
+    153:153:public boolean isContentType()
+    163:163:public boolean isSubject()
+    173:173:public boolean isFrom()
+    183:183:public boolean isTo()
+org.apache.james.mime4j.field.MailboxField:
+    42:42:public org.apache.james.mime4j.field.address.Mailbox getMailbox()
+    46:46:public org.apache.james.mime4j.field.address.parser.ParseException getParseException()
+org.apache.james.mime4j.field.MailboxListField:
+    42:42:public org.apache.james.mime4j.field.address.MailboxList getMailboxList()
+    46:46:public org.apache.james.mime4j.field.address.parser.ParseException getParseException()
+org.apache.james.mime4j.field.UnstructuredField:
+    40:40:public java.lang.String getValue()
+org.apache.james.mime4j.field.address.AddressList:
+    98:102:public void print()
+    122:123:public static void main(java.lang.String[])
+org.apache.james.mime4j.field.address.Group:
+    46:46:public java.lang.String getName()
+    53:53:public org.apache.james.mime4j.field.address.MailboxList getMailboxes()
+org.apache.james.mime4j.field.address.Mailbox:
+    40:41:public Mailbox(java.lang.String,java.lang.String)
+org.apache.james.mime4j.field.address.MailboxList:
+    65:69:public void print()
+org.apache.james.mime4j.field.address.NamedMailbox:
+    34:36:public NamedMailbox(java.lang.String,java.lang.String,java.lang.String)
+    42:44:public NamedMailbox(java.lang.String,org.apache.james.mime4j.field.address.DomainList,java.lang.String,java.lang.String)
+    58:58:public java.lang.String getName()
+org.apache.james.mime4j.field.address.parser.ASTaddr_spec:
+    11:12:public ASTaddr_spec(org.apache.james.mime4j.field.address.parser.AddressListParser,int)
+    17:17:public java.lang.Object jjtAccept(org.apache.james.mime4j.field.address.parser.AddressListParserVisitor,java.lang.Object)
+org.apache.james.mime4j.field.address.parser.ASTaddress:
+    11:12:public ASTaddress(org.apache.james.mime4j.field.address.parser.AddressListParser,int)
+    17:17:public java.lang.Object jjtAccept(org.apache.james.mime4j.field.address.parser.AddressListParserVisitor,java.lang.Object)
+org.apache.james.mime4j.field.address.parser.ASTaddress_list:
+    11:12:public ASTaddress_list(org.apache.james.mime4j.field.address.parser.AddressListParser,int)
+    17:17:public java.lang.Object jjtAccept(org.apache.james.mime4j.field.address.parser.AddressListParserVisitor,java.lang.Object)
+org.apache.james.mime4j.field.address.parser.ASTangle_addr:
+    11:12:public ASTangle_addr(org.apache.james.mime4j.field.address.parser.AddressListParser,int)
+    17:17:public java.lang.Object jjtAccept(org.apache.james.mime4j.field.address.parser.AddressListParserVisitor,java.lang.Object)
+org.apache.james.mime4j.field.address.parser.ASTdomain:
+    11:12:public ASTdomain(org.apache.james.mime4j.field.address.parser.AddressListParser,int)
+    17:17:public java.lang.Object jjtAccept(org.apache.james.mime4j.field.address.parser.AddressListParserVisitor,java.lang.Object)
+org.apache.james.mime4j.field.address.parser.ASTgroup_body:
+    11:12:public ASTgroup_body(org.apache.james.mime4j.field.address.parser.AddressListParser,int)
+    17:17:public java.lang.Object jjtAccept(org.apache.james.mime4j.field.address.parser.AddressListParserVisitor,java.lang.Object)
+org.apache.james.mime4j.field.address.parser.ASTlocal_part:
+    11:12:public ASTlocal_part(org.apache.james.mime4j.field.address.parser.AddressListParser,int)
+    17:17:public java.lang.Object jjtAccept(org.apache.james.mime4j.field.address.parser.AddressListParserVisitor,java.lang.Object)
+org.apache.james.mime4j.field.address.parser.ASTmailbox:
+    11:12:public ASTmailbox(org.apache.james.mime4j.field.address.parser.AddressListParser,int)
+    17:17:public java.lang.Object jjtAccept(org.apache.james.mime4j.field.address.parser.AddressListParserVisitor,java.lang.Object)
+org.apache.james.mime4j.field.address.parser.ASTname_addr:
+    11:12:public ASTname_addr(org.apache.james.mime4j.field.address.parser.AddressListParser,int)
+    17:17:public java.lang.Object jjtAccept(org.apache.james.mime4j.field.address.parser.AddressListParserVisitor,java.lang.Object)
+org.apache.james.mime4j.field.address.parser.ASTphrase:
+    11:12:public ASTphrase(org.apache.james.mime4j.field.address.parser.AddressListParser,int)
+    17:17:public java.lang.Object jjtAccept(org.apache.james.mime4j.field.address.parser.AddressListParserVisitor,java.lang.Object)
+org.apache.james.mime4j.field.address.parser.ASTroute:
+    11:12:public ASTroute(org.apache.james.mime4j.field.address.parser.AddressListParser,int)
+    17:17:public java.lang.Object jjtAccept(org.apache.james.mime4j.field.address.parser.AddressListParserVisitor,java.lang.Object)
+org.apache.james.mime4j.field.address.parser.AddressListParser:
+    private boolean jj_semLA
+    23:28:public static void main(java.lang.String[])
+    34:35:private static void log(java.lang.String)
+    56:66:public final void parseLine()
+    725:726:public AddressListParser(java.io.InputStream)
+    727:735:public AddressListParser(java.io.InputStream,java.lang.String)
+    738:739:public void ReInit(java.io.InputStream)
+    741:749:public void ReInit(java.io.InputStream,java.lang.String)
+    762:770:public void ReInit(java.io.Reader)
+    772:779:public AddressListParser(org.apache.james.mime4j.field.address.parser.AddressListParserTokenManager)
+    782:789:public void ReInit(org.apache.james.mime4j.field.address.parser.AddressListParserTokenManager)
+    839:843:public final org.apache.james.mime4j.field.address.parser.Token getNextToken()
+    936:936:public final void enable_tracing()
+    939:939:public final void disable_tracing()
+org.apache.james.mime4j.field.address.parser.AddressListParserConstants:
+    public static final int EOF
+    public static final int WS
+    public static final int ALPHA
+    public static final int DIGIT
+    public static final int ATEXT
+    public static final int DOTATOM
+    public static final int DOMAINLITERAL
+    public static final int COMMENT
+    public static final int QUOTEDSTRING
+    public static final int QUOTEDPAIR
+    public static final int ANY
+    public static final int DEFAULT
+    public static final int INDOMAINLITERAL
+    public static final int INCOMMENT
+    public static final int NESTED_COMMENT
+    public static final int INQUOTEDSTRING
+org.apache.james.mime4j.field.address.parser.AddressListParserTokenManager:
+    29:29:public void setDebugStream(java.io.PrintStream)
+    32:35:private final int jjStopStringLiteralDfa_0(int,long)
+    40:40:private final int jjStartNfa_0(int,long)
+    50:54:private final int jjStartNfaWithStates_0(int,int,int)
+    99:101:private final void jjAddStates(int,int)
+    104:106:private final void jjCheckNAddTwoStates(int,int)
+    110:112:private final void jjCheckNAddStates(int,int)
+    115:117:private final void jjCheckNAddStates(int)
+    214:217:private final int jjStopStringLiteralDfa_2(int,long)
+    222:222:private final int jjStartNfa_2(int,long)
+    226:230:private final int jjStartNfaWithStates_2(int,int,int)
+    338:341:private final int jjStopStringLiteralDfa_4(int,long)
+    346:346:private final int jjStartNfa_4(int,long)
+    350:354:private final int jjStartNfaWithStates_4(int,int,int)
+    472:475:private final int jjStopStringLiteralDfa_3(int,long)
+    480:480:private final int jjStartNfa_3(int,long)
+    484:488:private final int jjStartNfaWithStates_3(int,int,int)
+    593:596:private final int jjStopStringLiteralDfa_1(int,long)
+    601:601:private final int jjStartNfa_1(int,long)
+    605:609:private final int jjStartNfaWithStates_1(int,int,int)
+    755:757:public AddressListParserTokenManager(org.apache.james.mime4j.field.address.parser.SimpleCharStream,int)
+    760:764:public void ReInit(org.apache.james.mime4j.field.address.parser.SimpleCharStream)
+    774:776:public void ReInit(org.apache.james.mime4j.field.address.parser.SimpleCharStream,int)
+org.apache.james.mime4j.field.address.parser.AddressListParserTreeConstants:
+    public static final int JJTVOID
+    public static final int JJTADDRESS_LIST
+    public static final int JJTADDRESS
+    public static final int JJTMAILBOX
+    public static final int JJTNAME_ADDR
+    public static final int JJTGROUP_BODY
+    public static final int JJTANGLE_ADDR
+    public static final int JJTROUTE
+    public static final int JJTPHRASE
+    public static final int JJTADDR_SPEC
+    public static final int JJTLOCAL_PART
+    public static final int JJTDOMAIN
+org.apache.james.mime4j.field.address.parser.AddressListParserVisitor
+org.apache.james.mime4j.field.address.parser.JJTAddressListParserState:
+    24:24:boolean nodeCreated()
+    30:34:void reset()
+    59:59:org.apache.james.mime4j.field.address.parser.Node peekNode()
+    89:98:void closeNodeScope(org.apache.james.mime4j.field.address.parser.Node,int)
+org.apache.james.mime4j.field.address.parser.Node:
+    public abstract org.apache.james.mime4j.field.address.parser.Node jjtGetParent()
+    public abstract org.apache.james.mime4j.field.address.parser.Node jjtGetChild(int)
+    public abstract int jjtGetNumChildren()
+    public abstract java.lang.Object jjtAccept(org.apache.james.mime4j.field.address.parser.AddressListParserVisitor,java.lang.Object)
+org.apache.james.mime4j.field.address.parser.SimpleCharStream:
+    public static final boolean staticFlag
+    47:47:protected void setTabSize(int)
+    48:48:protected int getTabSize(int)
+    222:222:public int getColumn()
+    231:231:public int getLine()
+    278:279:public SimpleCharStream(java.io.Reader)
+    283:297:public void ReInit(java.io.Reader,int,int,int)
+    302:303:public void ReInit(java.io.Reader,int,int)
+    307:308:public void ReInit(java.io.Reader)
+    312:313:public SimpleCharStream(java.io.InputStream,java.lang.String,int,int,int)
+    318:319:public SimpleCharStream(java.io.InputStream,int,int,int)
+    324:325:public SimpleCharStream(java.io.InputStream,java.lang.String,int,int)
+    330:331:public SimpleCharStream(java.io.InputStream,int,int)
+    335:336:public SimpleCharStream(java.io.InputStream,java.lang.String)
+    340:341:public SimpleCharStream(java.io.InputStream)
+    346:347:public void ReInit(java.io.InputStream,java.lang.String,int,int,int)
+    352:353:public void ReInit(java.io.InputStream,int,int,int)
+    357:358:public void ReInit(java.io.InputStream,java.lang.String)
+    362:363:public void ReInit(java.io.InputStream)
+    367:368:public void ReInit(java.io.InputStream,java.lang.String,int,int)
+    372:373:public void ReInit(java.io.InputStream,int,int)
+    401:404:public void Done()
+    411:452:public void adjustBeginLineColumn(int,int)
+org.apache.james.mime4j.field.address.parser.SimpleNode:
+    protected org.apache.james.mime4j.field.address.parser.AddressListParser parser
+    16:18:public SimpleNode(org.apache.james.mime4j.field.address.parser.AddressListParser,int)
+    27:27:public org.apache.james.mime4j.field.address.parser.Node jjtGetParent()
+    50:50:public java.lang.Object jjtAccept(org.apache.james.mime4j.field.address.parser.AddressListParserVisitor,java.lang.Object)
+    55:60:public java.lang.Object childrenAccept(org.apache.james.mime4j.field.address.parser.AddressListParserVisitor,java.lang.Object)
+    70:70:public java.lang.String toString(java.lang.String)
+    76:85:public void dump(java.lang.String)
+org.apache.james.mime4j.field.address.parser.TokenMgrError:
+    static final int LEXICAL_ERROR
+    static final int STATIC_LEXER_ERROR
+    static final int INVALID_LEXICAL_STATE
+    static final int LOOP_DETECTED
+org.apache.james.mime4j.field.contenttype.parser.ContentTypeParser:
+    36:40:public static void main(java.lang.String[])
+    46:56:public final void parseLine()
+    129:130:public ContentTypeParser(java.io.InputStream)
+    131:138:public ContentTypeParser(java.io.InputStream,java.lang.String)
+    141:142:public void ReInit(java.io.InputStream)
+    144:150:public void ReInit(java.io.InputStream,java.lang.String)
+    162:168:public void ReInit(java.io.Reader)
+    170:176:public ContentTypeParser(org.apache.james.mime4j.field.contenttype.parser.ContentTypeParserTokenManager)
+    179:184:public void ReInit(org.apache.james.mime4j.field.contenttype.parser.ContentTypeParserTokenManager)
+    201:205:public final org.apache.james.mime4j.field.contenttype.parser.Token getNextToken()
+    209:214:public final org.apache.james.mime4j.field.contenttype.parser.Token getToken(int)
+    262:262:public final void enable_tracing()
+    265:265:public final void disable_tracing()
+org.apache.james.mime4j.field.contenttype.parser.ContentTypeParserConstants:
+    public static final int EOF
+    public static final int WS
+    public static final int COMMENT
+    public static final int QUOTEDSTRING
+    public static final int DIGITS
+    public static final int ATOKEN
+    public static final int QUOTEDPAIR
+    public static final int ANY
+    public static final int DEFAULT
+    public static final int INCOMMENT
+    public static final int NESTED_COMMENT
+    public static final int INQUOTEDSTRING
+org.apache.james.mime4j.field.contenttype.parser.ContentTypeParserTokenManager:
+    30:30:public void setDebugStream(java.io.PrintStream)
+    33:36:private final int jjStopStringLiteralDfa_0(int,long)
+    41:41:private final int jjStartNfa_0(int,long)
+    90:92:private final void jjAddStates(int,int)
+    95:97:private final void jjCheckNAddTwoStates(int,int)
+    101:103:private final void jjCheckNAddStates(int,int)
+    106:108:private final void jjCheckNAddStates(int)
+    228:231:private final int jjStopStringLiteralDfa_1(int,long)
+    236:236:private final int jjStartNfa_1(int,long)
+    240:244:private final int jjStartNfaWithStates_1(int,int,int)
+    349:352:private final int jjStopStringLiteralDfa_3(int,long)
+    357:357:private final int jjStartNfa_3(int,long)
+    361:365:private final int jjStartNfaWithStates_3(int,int,int)
+    483:486:private final int jjStopStringLiteralDfa_2(int,long)
+    491:491:private final int jjStartNfa_2(int,long)
+    495:499:private final int jjStartNfaWithStates_2(int,int,int)
+    641:643:public ContentTypeParserTokenManager(org.apache.james.mime4j.field.contenttype.parser.SimpleCharStream,int)
+    646:650:public void ReInit(org.apache.james.mime4j.field.contenttype.parser.SimpleCharStream)
+    660:662:public void ReInit(org.apache.james.mime4j.field.contenttype.parser.SimpleCharStream,int)
+org.apache.james.mime4j.field.contenttype.parser.SimpleCharStream:
+    public static final boolean staticFlag
+    47:47:protected void setTabSize(int)
+    48:48:protected int getTabSize(int)
+    222:222:public int getColumn()
+    231:231:public int getLine()
+    278:279:public SimpleCharStream(java.io.Reader)
+    283:297:public void ReInit(java.io.Reader,int,int,int)
+    302:303:public void ReInit(java.io.Reader,int,int)
+    307:308:public void ReInit(java.io.Reader)
+    312:313:public SimpleCharStream(java.io.InputStream,java.lang.String,int,int,int)
+    318:319:public SimpleCharStream(java.io.InputStream,int,int,int)
+    324:325:public SimpleCharStream(java.io.InputStream,java.lang.String,int,int)
+    330:331:public SimpleCharStream(java.io.InputStream,int,int)
+    335:336:public SimpleCharStream(java.io.InputStream,java.lang.String)
+    340:341:public SimpleCharStream(java.io.InputStream)
+    346:347:public void ReInit(java.io.InputStream,java.lang.String,int,int,int)
+    352:353:public void ReInit(java.io.InputStream,int,int,int)
+    357:358:public void ReInit(java.io.InputStream,java.lang.String)
+    362:363:public void ReInit(java.io.InputStream)
+    367:368:public void ReInit(java.io.InputStream,java.lang.String,int,int)
+    372:373:public void ReInit(java.io.InputStream,int,int)
+    401:404:public void Done()
+    411:452:public void adjustBeginLineColumn(int,int)
+org.apache.james.mime4j.field.contenttype.parser.TokenMgrError:
+    static final int LEXICAL_ERROR
+    static final int STATIC_LEXER_ERROR
+    static final int INVALID_LEXICAL_STATE
+    static final int LOOP_DETECTED
+org.apache.james.mime4j.field.datetime.DateTime:
+    87:87:public int getYear()
+    91:91:public int getMonth()
+    95:95:public int getDay()
+    99:99:public int getHour()
+    103:103:public int getMinute()
+    107:107:public int getSecond()
+    111:111:public int getTimeZone()
+    115:116:public void print()
+org.apache.james.mime4j.field.datetime.parser.DateTimeParser:
+    private static final boolean ignoreMilitaryZoneOffset
+    29:33:public static void main(java.lang.String[])
+    117:127:public final org.apache.james.mime4j.field.datetime.DateTime parseLine()
+    429:430:public DateTimeParser(java.io.InputStream)
+    431:438:public DateTimeParser(java.io.InputStream,java.lang.String)
+    441:442:public void ReInit(java.io.InputStream)
+    444:450:public void ReInit(java.io.InputStream,java.lang.String)
+    462:468:public void ReInit(java.io.Reader)
+    470:476:public DateTimeParser(org.apache.james.mime4j.field.datetime.parser.DateTimeParserTokenManager)
+    479:484:public void ReInit(org.apache.james.mime4j.field.datetime.parser.DateTimeParserTokenManager)
+    501:505:public final org.apache.james.mime4j.field.datetime.parser.Token getNextToken()
+    509:514:public final org.apache.james.mime4j.field.datetime.parser.Token getToken(int)
+    565:565:public final void enable_tracing()
+    568:568:public final void disable_tracing()
+org.apache.james.mime4j.field.datetime.parser.DateTimeParserConstants:
+    public static final int EOF
+    public static final int OFFSETDIR
+    public static final int MILITARY_ZONE
+    public static final int WS
+    public static final int COMMENT
+    public static final int DIGITS
+    public static final int QUOTEDPAIR
+    public static final int ANY
+    public static final int DEFAULT
+    public static final int INCOMMENT
+    public static final int NESTED_COMMENT
+org.apache.james.mime4j.field.datetime.parser.DateTimeParserTokenManager:
+    31:31:public void setDebugStream(java.io.PrintStream)
+    70:74:private final int jjStartNfaWithStates_0(int,int,int)
+    277:279:private final void jjAddStates(int,int)
+    282:284:private final void jjCheckNAddTwoStates(int,int)
+    288:290:private final void jjCheckNAddStates(int,int)
+    293:295:private final void jjCheckNAddStates(int)
+    392:395:private final int jjStopStringLiteralDfa_1(int,long)
+    400:400:private final int jjStartNfa_1(int,long)
+    404:408:private final int jjStartNfaWithStates_1(int,int,int)
+    516:519:private final int jjStopStringLiteralDfa_2(int,long)
+    524:524:private final int jjStartNfa_2(int,long)
+    528:532:private final int jjStartNfaWithStates_2(int,int,int)
+    680:682:public DateTimeParserTokenManager(org.apache.james.mime4j.field.datetime.parser.SimpleCharStream,int)
+    685:689:public void ReInit(org.apache.james.mime4j.field.datetime.parser.SimpleCharStream)
+    699:701:public void ReInit(org.apache.james.mime4j.field.datetime.parser.SimpleCharStream,int)
+org.apache.james.mime4j.field.datetime.parser.SimpleCharStream:
+    public static final boolean staticFlag
+    47:47:protected void setTabSize(int)
+    48:48:protected int getTabSize(int)
+    222:222:public int getColumn()
+    231:231:public int getLine()
+    278:279:public SimpleCharStream(java.io.Reader)
+    283:297:public void ReInit(java.io.Reader,int,int,int)
+    302:303:public void ReInit(java.io.Reader,int,int)
+    307:308:public void ReInit(java.io.Reader)
+    312:313:public SimpleCharStream(java.io.InputStream,java.lang.String,int,int,int)
+    318:319:public SimpleCharStream(java.io.InputStream,int,int,int)
+    324:325:public SimpleCharStream(java.io.InputStream,java.lang.String,int,int)
+    330:331:public SimpleCharStream(java.io.InputStream,int,int)
+    335:336:public SimpleCharStream(java.io.InputStream,java.lang.String)
+    340:341:public SimpleCharStream(java.io.InputStream)
+    346:347:public void ReInit(java.io.InputStream,java.lang.String,int,int,int)
+    352:353:public void ReInit(java.io.InputStream,int,int,int)
+    357:358:public void ReInit(java.io.InputStream,java.lang.String)
+    362:363:public void ReInit(java.io.InputStream)
+    367:368:public void ReInit(java.io.InputStream,java.lang.String,int,int)
+    372:373:public void ReInit(java.io.InputStream,int,int)
+    401:404:public void Done()
+    411:452:public void adjustBeginLineColumn(int,int)
+org.apache.james.mime4j.field.datetime.parser.TokenMgrError:
+    static final int LEXICAL_ERROR
+    static final int STATIC_LEXER_ERROR
+    static final int INVALID_LEXICAL_STATE
+    static final int LOOP_DETECTED
+org.apache.james.mime4j.message.AbstractBody
+org.apache.james.mime4j.message.BinaryBody
+org.apache.james.mime4j.message.Body
+org.apache.james.mime4j.message.BodyPart
+org.apache.james.mime4j.message.Entity
+org.apache.james.mime4j.message.Header
+org.apache.james.mime4j.message.Header$1
+org.apache.james.mime4j.message.MemoryBinaryBody
+org.apache.james.mime4j.message.MemoryTextBody
+org.apache.james.mime4j.message.Message
+org.apache.james.mime4j.message.Message$MessageBuilder
+org.apache.james.mime4j.message.Multipart
+org.apache.james.mime4j.message.TempFileBinaryBody
+org.apache.james.mime4j.message.TempFileTextBody
+org.apache.james.mime4j.message.TextBody
+org.apache.james.mime4j.util.CharsetUtil:
+    public static final java.lang.String CRLF
+    public static final int CR
+    public static final int LF
+    public static final int SP
+    public static final int HT
+    1140:1140:public static boolean isEncodingSupported(java.lang.String)
+    1193:1207:public static java.nio.charset.Charset getCharset(java.lang.String)
+org.apache.james.mime4j.util.PartialInputStream
+org.apache.james.mime4j.util.PositionInputStream
+org.apache.james.mime4j.util.SimpleTempStorage
+org.apache.james.mime4j.util.SimpleTempStorage$SimpleTempFile
+org.apache.james.mime4j.util.SimpleTempStorage$SimpleTempPath
+org.apache.james.mime4j.util.TempFile
+org.apache.james.mime4j.util.TempPath
+org.apache.james.mime4j.util.TempStorage

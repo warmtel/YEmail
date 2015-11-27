@@ -1,12 +1,5 @@
 .settings
 bin
 gen
-libs
-proguard
-.classpath
-.project
-proguard.cfg
-project.properties
-drawable/
-drawable-mdpi/
-drawable-hdpi/
+
+
