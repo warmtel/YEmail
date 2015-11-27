@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:gravity="center" 
+  android:layout_height="fill_parent" 
+  android:paddingBottom="25dp" 
+  android:paddingTop="25dp"
+  >
+  
+  <ProgressBar
+    android:layout_marginRight="6dip" 
+    android:layout_height="20dp" android:layout_width="20dp" android:id="@+id/progress1"/>
+    
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="" android:id="@+id/text"/>
+    
+</LinearLayout>

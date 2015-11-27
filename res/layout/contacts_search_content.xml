@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pinned_header_list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <include android:id="@+id/searchView"
+        layout="@layout/search_bar"/>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:fastScrollEnabled="true"
+        android:layout_height="0dip"
+        android:layout_weight="1" />
+
+    <!-- Transparent filler -->
+    <View android:id="@android:id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    />
+    <LinearLayout android:id="@+id/footer_organize"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dip"
+        android:paddingLeft="4dip"
+        android:paddingRight="4dip"
+        android:paddingBottom="1dip"
+        android:background="@drawable/bottom_bar">
+
+        <Button
+            android:id="@+id/btn_all_select"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/select_all" />
+
+        <Button
+            android:id="@+id/btn_cancel_select"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/deselect_all_action" />
+
+        <Button android:id="@+id/btn_confirm"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/done_action" />
+
+    </LinearLayout>
+</LinearLayout>

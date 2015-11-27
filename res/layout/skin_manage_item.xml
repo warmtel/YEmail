@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="10px"
+    >
+    <View
+        android:id="@+id/skin"
+        android:layout_width="60px"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dip"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/skin_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/skin"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingLeft="30px"
+        android:drawablePadding="4px"
+        android:paddingTop="12px" />
+
+    <TextView
+        android:id="@+id/message"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="?android:attr/textColorSecondary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subject"
+        android:layout_alignLeft="@id/subject"
+        android:paddingLeft="30px"
+        android:layout_marginRight="6dip" />
+        
+      <View
+        android:id="@+id/defaut_account"
+        android:layout_width="30px"
+        android:layout_height="30px"
+        android:layout_centerVertical="true"
+        android:paddingRight="10px" 
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        />
+</RelativeLayout>

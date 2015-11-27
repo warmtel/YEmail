@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+	android:hint="@string/searchHint" android:label="@string/searchLable"
+	android:searchSuggestIntentAction="android.intent.action.SEARCH"
+	android:searchSuggestAuthority="com.mail163.email.provider.SearchSuggestionSampleProvider"
+	android:searchSuggestSelection="query LIKE ?"
+	android:searchSettingsDescription="@string/searchHint"
+    android:includeInGlobalSearch="true">
+
+</searchable>

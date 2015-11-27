@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/nextMail"
+        android:layout_width="match_parent"
+        android:layout_height="37dip"
+        android:paddingTop="2dip" >
+
+        <ImageButton
+            android:id="@+id/plus_content"
+            android:layout_width="0.0dip"
+            android:layout_height="35.0dip"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1.0"
+            android:background="@drawable/btn_arrow_background"
+            android:paddingTop="7.0dip"
+            android:src="@drawable/btn_plus_default" />
+
+        <ImageButton
+            android:id="@+id/copy_all"
+            android:layout_width="0.0dip"
+            android:layout_height="35.0dip"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1.0"
+            android:background="@drawable/btn_arrow_background"
+            android:paddingTop="7.0dip"
+            android:src="@drawable/btn_copy_all" />
+
+        <ImageButton
+            android:id="@+id/minus_content"
+            android:layout_width="0.0dip"
+            android:layout_height="35.0dip"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1.0"
+            android:background="@drawable/btn_arrow_background"
+            android:paddingTop="7.0dip"
+            android:src="@drawable/btn_minus_default" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:fadingEdge="none"
+        android:fillViewport="true"
+        android:scrollbarStyle="outsideOverlay" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            scrollbarStyle="insideInset"
+            android:orientation="vertical" >
+
+            <!-- Note, height is 2+35+0.  There is a 4pixel fade on top of header image -->
+
+            <include layout="@layout/message_view_header" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_bar"
+        android:orientation="horizontal"
+        android:paddingBottom="1dip"
+        android:paddingLeft="4dip"
+        android:paddingRight="4dip"
+        android:paddingTop="5dip" >
+
+        <!-- android:background="@android:drawable/bottom_bar" -->
+
+        <Button
+            android:id="@+id/reply"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/reply_action" />
+
+        <Button
+            android:id="@+id/reply_all"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/reply_all_action"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/delete_action" />
+
+        <ImageButton
+            android:id="@+id/moveToNewer"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:contentDescription="precense"
+            android:src="@drawable/left_arrow" />
+
+        <ImageButton
+            android:id="@+id/moveToOlder"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:contentDescription="next"
+            android:src="@drawable/right_arrow" />
+    </LinearLayout>
+
+</LinearLayout>

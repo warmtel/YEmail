@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="contacts_email_update">
+        <item>@string/contacts_update</item>
+        <item>@string/delete_action</item>
+    </string-array>
+    <!-- Do not change any of the values in this array without checking/changing -->
+    <!-- related values in: AccountSetupBasics.java & AccountSetupOptions.java  -->
+    
+    <!-- In particular, 15 minutes is hardcoded as the default for new accounts. -->
+    
+    <string-array name="account_settings_check_frequency_entries">
+        <item>@string/account_setup_options_mail_check_frequency_never</item>
+        <item>@string/account_setup_options_mail_check_frequency_5min</item>
+        <item>@string/account_setup_options_mail_check_frequency_10min</item>
+        <item>@string/account_setup_options_mail_check_frequency_15min</item>
+        <item>@string/account_setup_options_mail_check_frequency_30min</item>
+        <item>@string/account_setup_options_mail_check_frequency_1hour</item>
+    </string-array>
+
+    <string-array name="account_settings_check_frequency_values" translatable="false">
+        <item>-1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>  
+    </string-array>
+    
+    
+    <!-- The arrays that are presented to push-enabled accounts -->
+    <string-array name="account_settings_check_frequency_entries_push">
+        <item>@string/account_setup_options_mail_check_frequency_push</item>
+        <item>@string/account_setup_options_mail_check_frequency_never</item>
+        <item>@string/account_setup_options_mail_check_frequency_5min</item>
+        <item>@string/account_setup_options_mail_check_frequency_10min</item>
+        <item>@string/account_setup_options_mail_check_frequency_15min</item>
+        <item>@string/account_setup_options_mail_check_frequency_30min</item>
+        <item>@string/account_setup_options_mail_check_frequency_1hour</item>
+    </string-array>
+
+    <string-array name="account_settings_check_frequency_values_push" translatable="false">
+        <item>-2</item>
+        <item>-1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>  
+    </string-array>
+    
+    <!-- Mail sync window sizes for EAS accounts -->
+    <!-- Note, "all" (value 6) is not presented in UI. -->
+    <string-array name="account_settings_mail_window_entries">
+        <item>@string/account_setup_options_mail_window_1day</item>
+        <item>@string/account_setup_options_mail_window_3days</item>
+        <item>@string/account_setup_options_mail_window_1week</item>
+        <item>@string/account_setup_options_mail_window_2weeks</item>
+        <item>@string/account_setup_options_mail_window_1month</item>
+    </string-array>
+
+    <!-- Mail sync window size codes for EAS accounts -->
+    <!-- Note, "all" (value 6) is not presented in UI. -->
+    <string-array name="account_settings_mail_window_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <!-- The vibrate notification modes -->
+    <string-array name="account_settings_vibrate_when_entries">
+        <!-- Always -->
+        <item>@string/account_settings_vibrate_when_always</item>
+        <!-- Only when the phone is in Silent mode -->
+        <item>@string/account_settings_vibrate_when_silent</item>
+        <!-- Never -->
+        <item>@string/account_settings_vibrate_when_never</item>
+    </string-array>
+
+    <!-- The vibrate notification values -->
+    <string-array translatable="false" name="account_settings_vibrate_when_values">
+        <item>always</item>
+        <item>silent</item>
+        <item>never</item>
+    </string-array>
+
+    <!-- Arrays "mailbox_display_names" and "mailbox_display_icons" MUST match the order
+         of the types of mailboxes defined in EmailContent -->
+    <string-array name="mailbox_display_names" translatable="false">
+        <!-- TYPE_INBOX = 0 -->
+        <item>@string/mailbox_name_display_inbox</item>
+        <!-- TYPE_MAIL = 1 -->
+        <item></item>
+        <!-- TYPE_PARENT = 2 -->
+        <item></item>
+        <!-- TYPE_DRAFTS = 3 -->
+        <item>@string/mailbox_name_display_drafts</item>
+        <!-- TYPE_OUTBOX = 4 -->
+        <item>@string/mailbox_name_display_outbox</item>
+        <!-- TYPE_SENT = 5 -->
+        <item>@string/mailbox_name_display_sent</item>
+        <!-- TYPE_TRASH = 6 -->
+        <item>@string/mailbox_name_display_trash</item>
+        <!-- TYPE_JUNK = 7 -->
+        <item>@string/mailbox_name_display_junk</item>
+        <!-- TYPE_NEWBOX = 8 -->
+        <item>@string/mailbox_name_display_newbox</item>
+        
+    </string-array>
+
+    <!-- Arrays "mailbox_display_names" and "mailbox_display_icons" MUST match the order
+         of the types of mailboxes defined in EmailContent -->
+    <array name="mailbox_display_icons" translatable="false">
+        <!-- TYPE_INBOX = 0 -->
+        <item>@drawable/ic_list_inbox</item>
+        <!-- TYPE_MAIL = 1 -->
+        <item>@drawable/ic_list_folder</item>
+        <!-- TYPE_PARENT = 2 -->
+        <item>@drawable/ic_list_folder</item>
+        <!-- TYPE_DRAFTS = 3 -->
+        <item>@drawable/ic_list_drafts</item>
+        <!-- TYPE_OUTBOX = 4 -->
+        <item>@drawable/ic_list_outbox</item>
+        <!-- TYPE_SENT = 5 -->
+        <item>@drawable/ic_list_sent</item>
+        <!-- TYPE_TRASH = 6 -->
+        <item>@drawable/ic_list_trash</item>
+        <!-- TYPE_JUNK = 7 -->
+        <item>@drawable/ic_list_spam</item>
+         <!-- TYPE_NEXBOX = 8 -->
+        <item>@drawable/ic_list_newbox</item>
+    </array>
+    
+    <!-- 邮件列表查看排序方式  -->
+	<string-array name="mail_list_sort_type">
+		<item>@string/mail_list_sort_type_time_label</item>
+		<item>@string/mail_list_sort_type_subject_label</item>
+		<item>@string/mail_list_sort_type_sender_label</item>
+		<item>@string/mail_list_sort_type_star_label</item>
+		<item>@string/mail_list_sort_type_unread_label</item>
+		<item>@string/mail_list_sort_type_readed_label</item>
+	</string-array>
+	
+	<!-- spiner 存储位置 -->
+	<string-array name="store_area_array">
+		<item>@string/store_data_array</item>
+		<item>@string/store_sdcard_array</item>
+	</string-array>
+	
+	<!-- spiner 存储大小-->
+	<string-array name="store_size_array">
+		<item>@string/store_size_array_never_label</item>
+		<item>10M</item>
+		<item>20M</item>
+		<item>30M</item>
+	</string-array>
+	<!-- spiner 软件自动升级开关-->
+	<string-array name="soft_update_array">
+		<item>@string/soft_update_array_open_label</item>
+		<item>@string/soft_update_array_close_label</item>
+	</string-array>
+	
+	<!-- The download modes -->
+    <string-array name="account_settings_down_count_entries">
+        <!-- 10 -->
+        <item>@string/account_settings_mail_down_ten</item>
+        <!-- 20 -->
+        <item>@string/account_settings_mail_down_twenty</item>
+        <!-- 30 -->
+        <item>@string/account_settings_mail_down_thirty</item>
+        <!-- 50 -->
+        <item>@string/account_settings_mail_down_fifty</item>
+		<!-- all -->
+        <item>@string/account_settings_mail_down_all</item>
+    </string-array>
+
+    <!-- The download values -->
+    <string-array translatable="false" name="account_settings_down_count_values">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>50</item>
+        <item>1000</item>
+    </string-array>
+    
+        <!-- The download modes -->
+    <string-array name="account_settings_down_entries">
+        <!-- title -->
+        <item>@string/account_settings_mail_title</item>
+        <!-- title body -->
+        <item>@string/account_settings_mail_title_body</item>
+    </string-array>
+
+    <!-- The download values -->
+    <string-array translatable="false" name="account_settings_down_values">
+        <item>title</item>
+        <item>body</item>
+    </string-array>
+    
+    <!-- priority -->
+    <string-array name="priority_mail_entries">
+	    <item>@string/compose_priority_ordinary</item>
+	    <item>@string/compose_priority_important</item>
+    </string-array>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- NOTE: The string in android:action must match the one in AccountSettings.java -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="@string/account_settings_title_fmt" />
+
+    <PreferenceScreen
+        android:key="account_settings"
+        android:title="@string/account_settings_action"
+        android:summary="@string/account_settings_exchange_summary">
+        <intent
+            android:action="com.android.email.activity.setup.ACCOUNT_MANAGER_ENTRY"
+            />
+    </PreferenceScreen>
+
+</PreferenceScreen>

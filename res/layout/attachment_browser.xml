@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+	
+	<RelativeLayout 
+		android:id="@+id/listHeaderButton"
+		android:layout_alignParentTop="true"
+		android:paddingTop="5dip"
+		android:paddingLeft="40dip"
+		android:paddingRight="40dip"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" >
+			
+		<LinearLayout 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" >
+			<Button
+				android:id="@+id/root_folder_btn"
+				android:layout_height="40dip"
+				android:layout_width="fill_parent"
+				android:layout_weight="1"
+				android:text="主目录" >
+			</Button>
+		
+			<Button
+				android:id="@+id/parent_folder_btn"
+				android:layout_height="40dip"
+				android:layout_width="fill_parent"
+				android:layout_weight="1"
+				android:text="向上" >
+			</Button>
+			
+		</LinearLayout>
+
+	</RelativeLayout>
+	
+	<RelativeLayout 
+		android:id="@+id/listPathText"
+		android:layout_below="@id/listHeaderButton"
+		android:layout_width="fill_parent"
+		android:layout_height="25dip"
+		android:background="@android:drawable/bottom_bar" >
+
+		<TextView
+			android:id="@+id/current_path_txt"
+			android:paddingLeft="5dip"
+		    android:singleLine="true"
+        	android:ellipsize="marquee"
+			android:textColor="#FFFFFF"
+			android:textSize="15dip" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+		
+	</RelativeLayout>
+
+	<RelativeLayout 
+		android:id="@+id/listFooter"
+		android:background="@android:drawable/bottom_bar" 
+		android:gravity="center_horizontal"
+		android:layout_alignParentBottom="true" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" >
+
+		<Button 
+			android:id="@+id/select_folder_btn"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:text="确定" >
+		</Button>
+		
+	</RelativeLayout>
+  
+	<ListView 
+		android:id="@android:id/list" 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:layout_below="@id/listPathText"
+		android:layout_above="@id/listFooter"> 
+	</ListView>
+
+</RelativeLayout>

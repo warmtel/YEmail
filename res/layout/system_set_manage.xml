@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/settingBoby" android:scrollbars="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@color/window_bg" xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+		<TextView android:id="@+id/account_settings_download_title"
+			android:padding="10.0dip" android:layout_width="wrap_content" style="@style/setting_manager_myStatusTitle" 
+			android:layout_height="wrap_content" android:text="@string/account_settings_download_title"
+			android:layout_centerVertical="true" />
+
+		<LinearLayout android:gravity="center_vertical"
+			android:orientation="vertical" android:background="@drawable/item_bg"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+			<RelativeLayout android:id="@+id/set_download_select"
+				android:focusable="true"
+				android:layout_width="fill_parent" android:layout_height="50.0dip">
+				<TextView android:id="@+id/settings_download"
+					android:text="@string/account_settings_download_select" style="@style/setting_manager_myStatusTitle"
+					android:layout_centerVertical="true" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:padding="10.0dip" />
+				<ImageView android:id="@+id/ImageView01"
+					android:background="@drawable/expand" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginRight="5.0dip"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true" />
+				<TextView android:id="@+id/set_download_textview" android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_toLeftOf="@+id/ImageView01"
+					android:layout_centerVertical="true"
+					style="@style/setting_manager_myStatusTitle" />
+			</RelativeLayout>
+			<View android:background="@drawable/info_divider"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_alignWithParentIfMissing="false" />
+			<RelativeLayout android:id="@+id/set_mail_count"
+				android:focusable="true"
+				android:layout_width="fill_parent" android:layout_height="50.0dip">
+				<TextView android:id="@+id/settings_mail_down_count"
+					android:padding="10.0dip" android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/account_settings_mail_down_count_label"
+					android:layout_centerVertical="true" style="@style/setting_manager_myDetail" />
+				<ImageView android:id="@+id/ImageView01"
+					android:background="@drawable/expand" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginRight="5.0dip"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true" />
+				<TextView android:id="@+id/settings_download_count" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:layout_toLeftOf="@+id/ImageView01"
+					android:layout_centerVertical="true"
+					style="@style/setting_manager_myStatusTitle" />
+			</RelativeLayout>
+			<View android:background="@drawable/info_divider"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_alignWithParentIfMissing="false" />
+			<RelativeLayout android:layout_width="fill_parent"
+				android:layout_height="50.0dip">
+	            <com.mail163.email.activity.MyCheckBox  android:textColor="@color/item_color"
+					android:id="@+id/settings_secretsend_me" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_marginLeft="10.0dip"
+					android:layout_marginRight="10.0dip" android:text="@string/set_secret_send_me"
+					style="@style/MyCheckBox" />
+			</RelativeLayout>
+
+		</LinearLayout>
+
+        <TextView android:id="@+id/account_settings_download_title"
+			android:padding="10.0dip" android:layout_width="wrap_content" style="@style/setting_manager_myStatusTitle" 
+			android:layout_height="wrap_content" android:text="@string/store_name"
+			android:layout_centerVertical="true" />
+         <LinearLayout android:gravity="center_vertical" android:layout_marginTop="5.0dip"
+			android:orientation="vertical" android:background="@drawable/item_bg"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+			<RelativeLayout android:id="@+id/store_area_layout"
+				android:focusable="true"
+				android:layout_width="fill_parent" android:layout_height="50.0dip">
+				<TextView android:id="@+id/store_area_tv"
+					android:text="@string/store_area" style="@style/setting_manager_myStatusTitle"
+					android:layout_centerVertical="true" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:padding="10.0dip" />
+				<ImageView android:id="@+id/ImageView01"
+					android:background="@drawable/expand" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginRight="5.0dip"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true" />
+				<TextView android:id="@+id/store_area_title" android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_toLeftOf="@+id/ImageView01"
+					android:layout_centerVertical="true"
+					style="@style/setting_manager_myStatusTitle" />
+			</RelativeLayout>
+			<View android:background="@drawable/info_divider"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_alignWithParentIfMissing="false" />
+			<RelativeLayout android:id="@+id/store_min_size_layout"
+				android:focusable="true"
+				android:layout_width="fill_parent" android:layout_height="50.0dip">
+				<TextView android:id="@+id/store_min_size_tv"
+					android:padding="10.0dip" android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/store_min_size"
+					android:layout_centerVertical="true" style="@style/setting_manager_myDetail" />
+				<ImageView android:id="@+id/ImageView01"
+					android:background="@drawable/expand" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginRight="5.0dip"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true" />
+				<TextView android:id="@+id/store_min_size" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:layout_toLeftOf="@+id/ImageView01"
+					android:layout_centerVertical="true"
+					style="@style/setting_manager_myStatusTitle" />
+			</RelativeLayout>
+			<View android:background="@drawable/info_divider"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_alignWithParentIfMissing="false" />
+			<RelativeLayout android:id="@+id/netdata_layout"
+				android:focusable="true"
+				android:layout_width="fill_parent" android:layout_height="50.0dip">
+				<TextView android:id="@+id/netdata"
+					android:text="@string/stream_max_size" style="@style/setting_manager_myStatusTitle"
+					android:layout_centerVertical="true" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:padding="10.0dip" />
+				<ImageView android:id="@+id/ImageView01"
+					android:background="@drawable/expand" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginRight="5.0dip"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true" />
+				<TextView android:id="@+id/stream_max_size_tv" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:layout_toLeftOf="@+id/ImageView01"
+					android:layout_centerVertical="true"
+					style="@style/setting_manager_myStatusTitle" />
+			</RelativeLayout>
+		</LinearLayout>
+		 <TextView android:id="@+id/account_settings_download_title"
+			android:padding="10.0dip" android:layout_width="wrap_content" style="@style/setting_manager_myStatusTitle" 
+			android:layout_height="wrap_content" android:text="@string/set_openAndclose_layout_tilte"
+			android:layout_centerVertical="true" />
+		<LinearLayout android:gravity="center_vertical" android:layout_marginTop="5.0dip"
+			android:orientation="vertical" android:background="@drawable/item_bg"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+			
+			
+			<RelativeLayout android:id="@+id/background_music_layout"
+				android:focusable="true"
+				android:layout_width="fill_parent" android:layout_height="50.0dip">
+				<TextView android:id="@+id/music_background_tv"
+					android:padding="10.0dip" android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/music_backgroud_lable"
+					android:layout_centerVertical="true" style="@style/setting_manager_myDetail" />
+				<ImageView android:id="@+id/ImageView01"
+					android:background="@drawable/expand" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginRight="5.0dip"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true" />
+				<TextView android:id="@+id/background_music_value" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:layout_toLeftOf="@+id/ImageView01"
+					android:layout_centerVertical="true"
+					style="@style/setting_manager_myStatusTitle" />
+			</RelativeLayout>
+			
+			<View android:background="@drawable/info_divider"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_alignWithParentIfMissing="false" />
+			<RelativeLayout android:id="@+id/shortcut_layout"
+				android:focusable="true"
+				android:layout_width="fill_parent" android:layout_height="50.0dip">
+				<TextView android:id="@+id/shortcut_open_tv"
+					android:padding="10.0dip" android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/shortcut_set_title"
+					android:layout_centerVertical="true" style="@style/setting_manager_myDetail" />
+				<ImageView android:id="@+id/ImageView01"
+					android:background="@drawable/expand" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginRight="5.0dip"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true" />
+				<TextView android:id="@+id/shortcut_value" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:layout_toLeftOf="@+id/ImageView01"
+					android:layout_centerVertical="true"
+					style="@style/setting_manager_myStatusTitle" />
+			</RelativeLayout>
+            <View android:background="@drawable/info_divider"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_alignWithParentIfMissing="false" />
+			<RelativeLayout android:id="@+id/soft_update_layout"
+				android:focusable="true"
+				android:layout_width="fill_parent" android:layout_height="50.0dip">
+				<TextView android:id="@+id/soft_update_open_tv"
+					android:padding="10.0dip" android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/soft_update_title"
+					android:layout_centerVertical="true" style="@style/setting_manager_myDetail" />
+				<ImageView android:id="@+id/ImageView01"
+					android:background="@drawable/expand" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginRight="5.0dip"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true" />
+				<TextView android:id="@+id/soft_update_value" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:layout_toLeftOf="@+id/ImageView01"
+					android:layout_centerVertical="true"
+					style="@style/setting_manager_myStatusTitle" />
+			</RelativeLayout>
+			
+			
+			
+		</LinearLayout>
+		
+		<TextView android:id="@+id/setting_secrut_title"
+			android:padding="10.0dip" android:layout_width="wrap_content" style="@style/setting_manager_myStatusTitle" 
+			android:layout_height="wrap_content" android:text="@string/set_password_layout_tilte"
+			android:layout_centerVertical="true" />
+		<LinearLayout android:gravity="center_vertical" android:layout_marginTop="5.0dip"
+			android:orientation="vertical" android:background="@drawable/item_bg"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+			
+			<RelativeLayout android:id="@+id/set_password_layout"
+				android:focusable="true"
+				android:layout_width="fill_parent" android:layout_height="50.0dip">
+				<TextView android:id="@+id/set_password_tv"
+					android:padding="10.0dip" android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/set_password_lable"
+					android:layout_centerVertical="true" style="@style/setting_manager_myDetail" />
+				<ImageView android:id="@+id/ImageView01"
+					android:background="@drawable/go_next_icon" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginRight="5.0dip"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true" />
+				<TextView android:id="@+id/set_password_value" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:layout_toLeftOf="@+id/ImageView01"
+					android:layout_centerVertical="true"
+					style="@style/setting_manager_myStatusTitle" />
+			</RelativeLayout>
+			
+			<View android:background="@drawable/info_divider"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_alignWithParentIfMissing="false" />
+				<!-- android:background="@drawable/opt_selectitem"  -->
+			<RelativeLayout android:id="@+id/securtiy_imsi_layout"
+				android:focusable="true"
+				android:layout_width="fill_parent" android:layout_height="50.0dip">
+				<TextView android:id="@+id/securtiy_imsi_open"
+					android:padding="10.0dip" android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/securtiy_imsi_title"
+					android:layout_centerVertical="true" style="@style/setting_manager_myDetail" />
+				<ImageView android:id="@+id/ImageView01"
+					android:background="@drawable/expand" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginRight="5.0dip"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true" />
+				<TextView android:id="@+id/securtiy_imsi_value" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:layout_toLeftOf="@+id/ImageView01"
+					android:layout_centerVertical="true"
+					style="@style/setting_manager_myStatusTitle" />
+			</RelativeLayout>
+		</LinearLayout>
+		
+	</LinearLayout>
+</ScrollView>

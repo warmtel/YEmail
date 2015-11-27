@@ -7,4 +7,6 @@ proguard
 .project
 proguard.cfg
 project.properties
-res
+drawable/
+drawable-mdpi/
+drawable-hdpi/

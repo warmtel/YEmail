@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/check_mail"
+        android:alphabeticShortcut="r"
+        android:title="@string/refresh_action"
+        android:icon="@drawable/ic_menu_reply"
+    />
+    <item android:id="@+id/compose"
+        android:alphabeticShortcut="c"
+        android:title="@string/compose_action"
+        android:icon="@drawable/ic_menu_signature"
+    />
+    <item android:id="@+id/add_new_account"
+        android:title="@string/add_account_action"
+        android:icon="@android:drawable/ic_menu_add"
+    />
+    <item android:id="@+id/user_idea"
+        android:title="@string/user_idear"
+        android:icon="@drawable/ic_menu_settings_icon"
+    />
+    
+    <item android:id="@+id/search"
+        android:title="@string/search_action" 
+        android:icon="@android:drawable/ic_menu_search"
+     />
+        
+    <item android:id="@+id/music_backgroud"
+    	android:icon="@drawable/ic_menu_reply"
+        android:title="@string/music_backgroud_lable" /> 
+           
+    <item android:id="@+id/skin_manage"
+    	android:icon="@drawable/mi_skin"
+        android:title="@string/skin_manage_menu" />
+    <item android:id="@+id/system_set"
+    	android:icon="@drawable/ic_menu_settings_icon"
+        android:title="@string/system_set_title" />
+        
+    <item android:id="@+id/soft_update"
+        android:title="@string/soft_update"
+        android:icon="@drawable/menu_soft_update"
+    />
+    
+    <item android:id="@+id/share_app"
+        android:title="@string/share_app"
+        android:icon="@drawable/ic_menu_settings_icon"
+    />
+    
+    <item android:id="@+id/storage"
+    	android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/storage_result" />
+
+    <item android:id="@+id/soft_about"
+        android:title="@string/about"
+        android:icon="@drawable/ic_menu_help"
+    />
+</menu>

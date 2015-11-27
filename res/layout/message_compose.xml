@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id ="@+id/composeLinearLayout"
+    android:layout_height="match_parent" android:layout_width="match_parent"
+    android:orientation="vertical" android:background="#ffffff">
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="0dip" android:layout_weight="1"
+        android:scrollbarStyle="outsideInset"
+        android:fillViewport="true">
+        <LinearLayout android:orientation="vertical"
+        	android:paddingTop="5dip"
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content">
+                <!-- 发件人 -->
+	            <LinearLayout
+	            	android:visibility="gone"
+	            	android:orientation="horizontal"
+	                android:layout_width="fill_parent" 
+	                android:layout_height="wrap_content">
+	                <com.mail163.email.activity.AddressTextView
+	                	android:id="@+id/fromView" android:layout_width="match_parent" android:layout_height="wrap_content"
+	                   	android:textAppearance="?android:attr/textAppearanceMedium"
+	                   	android:textColor="?android:attr/textColorSecondaryInverse"
+	                    android:layout_marginLeft="6dip"
+	                    android:layout_marginRight="6dip"
+	                    android:inputType="textEmailAddress|textMultiLine"
+	                    android:layout_marginTop="6px"
+	                    android:paddingLeft="15dip"
+	                    android:layout_weight="1"
+	                    android:enabled="false"
+	                    android:editable="false" />
+	                <ImageView 
+	                	android:id="@+id/fromImgView" android:layout_width="21px" android:layout_height="24px"
+	                	android:layout_marginRight="16px"
+	                	android:layout_marginLeft="10px"
+	                	android:src="@drawable/create_contact" 
+	                	android:layout_gravity="center" />
+
+				</LinearLayout>
+				<!-- 收件人 -->
+	            <LinearLayout
+	            	android:orientation="horizontal"
+	                android:layout_width="fill_parent" 
+	                android:layout_height="wrap_content">
+	                <com.mail163.email.activity.AddressTextView
+	                    android:id="@+id/to" android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:textAppearance="?android:attr/textAppearanceMedium"
+	                    android:textColor="?android:attr/textColorSecondaryInverse"
+	                    android:layout_marginLeft="6dip"
+	                    android:layout_marginRight="6dip"
+                        android:layout_weight="1"
+	                    android:inputType="textEmailAddress|textMultiLine"
+	                    android:imeOptions="actionNext"
+	                    android:hint="@string/message_compose_to_hint" />
+	                <ImageButton 
+	                	android:id="@+id/toImgView" 
+	                	android:layout_width="wrap_content" 
+	                	android:layout_height="wrap_content"
+	                	android:layout_marginRight="16px"
+	                	android:layout_marginLeft="10px"
+	                	android:src="@drawable/create_contact" 
+	                	android:layout_gravity="center" />     
+                 </LinearLayout>
+                 <!-- 抄送 -->
+				 <LinearLayout
+	            	android:orientation="horizontal"
+	                android:layout_width="fill_parent" 
+	                android:layout_height="wrap_content" 
+	                android:id="@+id/ccLayout" 
+	                android:visibility="gone" >    
+	                <com.mail163.email.activity.AddressTextView
+	                    android:id="@+id/cc" android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:textAppearance="?android:attr/textAppearanceMedium"
+	                    android:textColor="?android:attr/textColorSecondaryInverse"
+	                    android:layout_marginLeft="6dip"
+	                    android:layout_marginRight="6dip"
+	                    android:layout_weight="1"
+	                    android:inputType="textEmailAddress|textMultiLine"
+	                    android:imeOptions="actionNext"
+	                    android:hint="@string/message_compose_cc_hint"
+	                   />
+	                <ImageButton 
+	                	android:id="@+id/ccImgView" 
+	                	android:layout_width="wrap_content" 
+	                	android:layout_height="wrap_content"
+	                	android:layout_marginRight="16px"
+	                	android:layout_marginLeft="10px"
+	                	android:src="@drawable/create_contact" 
+	                	android:layout_gravity="center" />           
+	            </LinearLayout>    
+                <!-- 密送 -->            
+				<LinearLayout
+	            	android:orientation="horizontal"
+	                android:layout_width="fill_parent" 
+	                android:layout_height="wrap_content"
+	                android:id="@+id/bccLayout" 
+	                android:visibility="gone" >
+	                <com.mail163.email.activity.AddressTextView
+	                    android:id="@+id/bcc" android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:textAppearance="?android:attr/textAppearanceMedium"
+	                    android:textColor="?android:attr/textColorSecondaryInverse"
+	                    android:layout_marginLeft="6dip"
+	                    android:layout_marginRight="6dip"
+	                    android:layout_weight="1"
+	                    android:inputType="textEmailAddress|textMultiLine"
+	                    android:imeOptions="actionNext"
+	                    android:hint="@string/message_compose_bcc_hint"
+	                    />
+	                <ImageButton 
+	                	android:id="@+id/bccImgView" 
+	                	android:layout_width="wrap_content" 
+	                	android:layout_height="wrap_content"
+	                	android:layout_marginRight="16px"
+	                	android:layout_marginLeft="10px"
+	                	android:src="@drawable/create_contact" 
+	                	android:layout_gravity="center" />           
+	            </LinearLayout>	
+                <EditText android:id="@+id/subject"
+                    android:layout_width="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_height="wrap_content"
+                    android:textColor="?android:attr/textColorSecondaryInverse"
+                    android:layout_marginLeft="6dip"
+                    android:layout_marginRight="6dip"
+                    android:hint="@string/message_compose_subject_hint"
+                    android:inputType="textEmailSubject|textAutoCorrect|textCapSentences|textImeMultiLine" 
+                    android:imeOptions="actionNext"
+                    />
+             
+	            <LinearLayout
+	            	android:orientation="horizontal"
+	                android:layout_width="fill_parent" 
+	                android:layout_height="wrap_content">
+	                <Spinner android:id="@+id/compose_priority"
+				        android:layout_height="wrap_content"
+				        android:layout_width="0dip"
+            			android:layout_weight="2"
+            			android:layout_marginLeft="6dip"
+	                    android:layout_marginRight="6dip"
+				        android:drawSelectorOnTop="true" 
+				        />  
+	                 <!-- 添加附件 -->  
+	                 <Button
+		            	android:id="@+id/add_attachments"
+		               	android:text="@string/add_attachment_action"
+		               	android:layout_height="wrap_content"
+		               	android:layout_width="0dip"
+		               	android:layout_marginRight="6px"
+	                	android:layout_marginLeft="6px"
+            			android:layout_weight="1" />
+                 </LinearLayout>
+                <!--
+                    Empty container for storing attachments. We'll stick
+                    instances of message_compose_attachment.xml in here.
+                -->
+                <LinearLayout android:id="@+id/attachments"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+                <View android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:background="@drawable/divider_horizontal_email" />
+	            <EditText android:id="@+id/message_content"
+	                android:textColor="?android:attr/textColorSecondaryInverse"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_weight="1.0"
+	                android:textAppearance="?android:attr/textAppearanceMedium"
+	                android:gravity="left|top"
+	                android:minLines="3"
+	                android:hint="@string/message_compose_body_hint"
+	                android:inputType="textMultiLine|textAutoCorrect|textCapSentences"
+	                android:imeOptions="actionDone|flagNoEnterAction"
+	                />
+	            <!--  quoted text bar -->
+	            <RelativeLayout android:id="@+id/quoted_text_bar"
+	                android:layout_width="match_parent"
+	                android:layout_height="45dip" android:background="@drawable/email_quoted_bar">
+	                <TextView android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:textAppearance="?android:attr/textAppearanceMedium"
+	                    android:textColor="?android:attr/textColorSecondaryInverse"
+	                    android:text="@string/message_compose_quoted_text_label"
+	                    android:layout_alignParentLeft="true"
+	                    android:layout_centerVertical="true" />
+	                <ImageButton android:id="@+id/quoted_text_delete"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:background="@android:drawable/btn_dialog"
+	                    android:layout_centerVertical="true"
+	                    android:layout_alignParentRight="true" />
+	            </RelativeLayout>
+	            <WebView android:id="@+id/quoted_text"
+	                android:layout_height="wrap_content"
+	                android:layout_width="match_parent" />
+        </LinearLayout>
+    </ScrollView>
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dip"
+        android:paddingLeft="4dip"
+        android:paddingRight="4dip"
+        android:paddingBottom="1dip"   
+        android:background="@android:drawable/bottom_bar" >
+        <Button
+            android:id="@+id/send"
+            android:text="@string/send_action"
+            android:layout_height="match_parent"
+            android:layout_width="0dip"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/save"
+            android:text="@string/save_draft_action"
+            android:layout_height="match_parent"
+            android:layout_width="0dip"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/discard"
+            android:text="@string/discard_action"
+            android:layout_height="match_parent"
+            android:layout_width="0dip"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/pop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/record_attachment"
+            android:layout_height="match_parent"
+            android:layout_width="0dip"
+            android:background="@drawable/pop_talk_bottom"
+            android:layout_weight="1" />
+    </LinearLayout>
+   
+</LinearLayout>

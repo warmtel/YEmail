@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="unreadCount">
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:paddingLeft">3dip</item>
+        <item name="android:paddingRight">3dip</item>
+        <item name="android:paddingTop">0dip</item>
+        <item name="android:paddingBottom">1dip</item>
+        <item name="android:minWidth">20dip</item>
+        <item name="android:maxWidth">48dip</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+    </style>
+
+    <style name="ThemeNoTitleBar" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="StatusBarBackground">
+        <item name="android:background">@drawable/bitmap_repeat</item>
+    </style>
+
+    <style name="XTheme" parent="android:Theme">
+
+        <!-- Window attributes -->
+        <item name="android:windowTitleBackgroundStyle">@style/StatusBarBackground</item>
+        <item name="android:windowBackground">@color/main_background_SlateGrey</item>
+    </style>
+
+    <style name="XThemeSlide" parent="XTheme">
+        <item name="android:windowNoTitle">true</item> 
+        <!-- 设置activity切换动画 -->
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style>
+    
+    <style name="TitleStyle">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+
+    <!--  -->
+    <style name="customListView" parent="@android:style/Widget.ListView">
+        <item name="android:scrollbarSize">10.0dip</item>
+        <item name="android:listSelector">@drawable/selector_list</item>
+        <item name="android:cacheColorHint">#00000000</item>
+    </style>
+
+    <style name="Default" parent="@android:style/Theme.Light">
+        <item name="android:textColorPrimaryInverse">@android:color/black</item>
+        <item name="android:windowBackground">@color/window_bg</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleBackgroundStyle">@style/StatusBarBackground</item>
+        <item name="android:listViewStyle">@style/customListView</item>
+    </style>
+
+    <style name="MyCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/qq_checkbox_text_color</item>
+        <item name="android:button">@drawable/qq_btn_check</item>
+    </style>
+
+    <style name="item_color">
+        <item name="android:textColor">@color/item_color</item>
+    </style>
+
+    <style name="setting_manager_myDetail" parent="@style/item_color" />
+
+    <style name="setting_manager_myStatusTitle" parent="@style/item_color" />
+
+    <style name="setting_manager_myStatus" parent="@style/item_color" />
+
+    <!-- animation 样式 -->
+    <style name="activityAnimation" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_right_out</item>
+    </style>
+</resources>

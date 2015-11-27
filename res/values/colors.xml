@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="message_list_item_background_unread">#404040</color>
+    <color name="message_list_item_background_read">#000000</color>
+    <color name="account_folder_list_item_separator">#303030</color>
+    <color name="connection_error_banner">#fffff1a8</color>
+    <color name="text_white">#FFFF</color>
+    <color name="background_cachhint">#00000000</color>
+    <color name="line_black">#000000</color>
+    <color name="translucent_search_background">#cc000000</color>
+    <color name="window_bg">#fff0f3f6</color>
+    <color name="transparent">#00000000</color>
+    <color name="qq_semi_transparent_white">#7fffffff</color>
+    <color name="item_color">#ff2d2d2d</color>
+
+    <color name="text_dark">#000000</color>
+    <color name="pulltorefresh_text_grey">#DCDCDC</color>
+    <color name="main_background_SlateGrey">#001923</color>
+</resources>
